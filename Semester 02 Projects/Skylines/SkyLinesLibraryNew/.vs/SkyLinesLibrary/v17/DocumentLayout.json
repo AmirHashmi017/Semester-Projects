@@ -1,0 +1,334 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\bl\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|solutionrelative:bl\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\dl\\admindl_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|solutionrelative:dl\\admindl_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|d:\\semester 02 projects\\skylines\\skylineslibrarynew\\utilities\\dbconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|solutionrelative:utilities\\dbconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\dl\\admindl_fh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|solutionrelative:dl\\admindl_fh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\dl\\flightdl_fh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|solutionrelative:dl\\flightdl_fh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\dl\\staffdl_fh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|solutionrelative:dl\\staffdl_fh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\dl\\clientdl_fh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|solutionrelative:dl\\clientdl_fh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\dl\\staffdl_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|solutionrelative:dl\\staffdl_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\dl\\flightdl_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|solutionrelative:dl\\flightdl_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\dl\\clientdl_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|solutionrelative:dl\\clientdl_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\interfaces\\istaffdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|solutionrelative:interfaces\\istaffdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\interfaces\\iflightdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|solutionrelative:interfaces\\iflightdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\interfaces\\iclientdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|solutionrelative:interfaces\\iclientdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\interfaces\\iadmindl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|solutionrelative:interfaces\\iadmindl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\utilities\\validations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|solutionrelative:utilities\\validations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\bl\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|solutionrelative:bl\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\bl\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|solutionrelative:bl\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\bl\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|solutionrelative:bl\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\bl\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F444D239-AF31-4A10-BF7B-A01B1C262662}|SkyLinesLibrary.csproj|solutionrelative:bl\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClientDL_DB.cs",
+              "DocumentMoniker": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\DL\\ClientDL_DB.cs",
+              "RelativeDocumentMoniker": "DL\\ClientDL_DB.cs",
+              "ToolTip": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\DL\\ClientDL_DB.cs",
+              "RelativeToolTip": "DL\\ClientDL_DB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T03:45:30.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FlightDL_DB.cs",
+              "DocumentMoniker": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\DL\\FlightDL_DB.cs",
+              "RelativeDocumentMoniker": "DL\\FlightDL_DB.cs",
+              "ToolTip": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\DL\\FlightDL_DB.cs",
+              "RelativeToolTip": "DL\\FlightDL_DB.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwAgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T03:45:32.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StaffDL_DB.cs",
+              "DocumentMoniker": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\DL\\StaffDL_DB.cs",
+              "RelativeDocumentMoniker": "DL\\StaffDL_DB.cs",
+              "ToolTip": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\DL\\StaffDL_DB.cs",
+              "RelativeToolTip": "DL\\StaffDL_DB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAYwBEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T03:45:32.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClientDL_FH.cs",
+              "DocumentMoniker": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\DL\\ClientDL_FH.cs",
+              "RelativeDocumentMoniker": "DL\\ClientDL_FH.cs",
+              "ToolTip": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\DL\\ClientDL_FH.cs",
+              "RelativeToolTip": "DL\\ClientDL_FH.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAkwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T03:45:32.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StaffDL_FH.cs",
+              "DocumentMoniker": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\DL\\StaffDL_FH.cs",
+              "RelativeDocumentMoniker": "DL\\StaffDL_FH.cs",
+              "ToolTip": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\DL\\StaffDL_FH.cs",
+              "RelativeToolTip": "DL\\StaffDL_FH.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T03:45:32.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FlightDL_FH.cs",
+              "DocumentMoniker": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\DL\\FlightDL_FH.cs",
+              "RelativeDocumentMoniker": "DL\\FlightDL_FH.cs",
+              "ToolTip": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\DL\\FlightDL_FH.cs",
+              "RelativeToolTip": "DL\\FlightDL_FH.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAgwBUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T03:45:32.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminDL_FH.cs",
+              "DocumentMoniker": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\DL\\AdminDL_FH.cs",
+              "RelativeDocumentMoniker": "DL\\AdminDL_FH.cs",
+              "ToolTip": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\DL\\AdminDL_FH.cs",
+              "RelativeToolTip": "DL\\AdminDL_FH.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T03:45:29.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DBConfig.cs",
+              "DocumentMoniker": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\Utilities\\DBConfig.cs",
+              "RelativeDocumentMoniker": "Utilities\\DBConfig.cs",
+              "ToolTip": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\Utilities\\DBConfig.cs",
+              "RelativeToolTip": "Utilities\\DBConfig.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAACEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T03:45:31.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminDL_DB.cs",
+              "DocumentMoniker": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\DL\\AdminDL_DB.cs",
+              "RelativeDocumentMoniker": "DL\\AdminDL_DB.cs",
+              "ToolTip": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\DL\\AdminDL_DB.cs",
+              "RelativeToolTip": "DL\\AdminDL_DB.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T03:45:30.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Client.cs",
+              "DocumentMoniker": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\BL\\Client.cs",
+              "RelativeDocumentMoniker": "BL\\Client.cs",
+              "ToolTip": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\BL\\Client.cs",
+              "RelativeToolTip": "BL\\Client.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T03:45:30.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Flight.cs",
+              "DocumentMoniker": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\BL\\Flight.cs",
+              "RelativeDocumentMoniker": "BL\\Flight.cs",
+              "ToolTip": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\BL\\Flight.cs",
+              "RelativeToolTip": "BL\\Flight.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T03:45:30.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IStaffDL.cs",
+              "DocumentMoniker": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\Interfaces\\IStaffDL.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IStaffDL.cs",
+              "ToolTip": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\Interfaces\\IStaffDL.cs",
+              "RelativeToolTip": "Interfaces\\IStaffDL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T03:45:30.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IFlightDL.cs",
+              "DocumentMoniker": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\Interfaces\\IFlightDL.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IFlightDL.cs",
+              "ToolTip": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\Interfaces\\IFlightDL.cs",
+              "RelativeToolTip": "Interfaces\\IFlightDL.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAgAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T03:45:30.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IClientDL.cs",
+              "DocumentMoniker": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\Interfaces\\IClientDL.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IClientDL.cs",
+              "ToolTip": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\Interfaces\\IClientDL.cs",
+              "RelativeToolTip": "Interfaces\\IClientDL.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAcwAkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T03:45:32.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IAdminDL.cs",
+              "DocumentMoniker": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\Interfaces\\IAdminDL.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IAdminDL.cs",
+              "ToolTip": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\Interfaces\\IAdminDL.cs",
+              "RelativeToolTip": "Interfaces\\IAdminDL.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T03:45:32.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\BL\\Admin.cs",
+              "RelativeDocumentMoniker": "BL\\Admin.cs",
+              "ToolTip": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\BL\\Admin.cs",
+              "RelativeToolTip": "BL\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T03:45:32.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Person.cs",
+              "DocumentMoniker": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\BL\\Person.cs",
+              "RelativeDocumentMoniker": "BL\\Person.cs",
+              "ToolTip": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\BL\\Person.cs",
+              "RelativeToolTip": "BL\\Person.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T03:45:32.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Staff.cs",
+              "DocumentMoniker": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\BL\\Staff.cs",
+              "RelativeDocumentMoniker": "BL\\Staff.cs",
+              "ToolTip": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\BL\\Staff.cs",
+              "RelativeToolTip": "BL\\Staff.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T03:45:32.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Validations.cs",
+              "DocumentMoniker": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\Utilities\\Validations.cs",
+              "RelativeDocumentMoniker": "Utilities\\Validations.cs",
+              "ToolTip": "D:\\Semester 02 Projects\\Skylines\\SkyLinesLibraryNew\\Utilities\\Validations.cs",
+              "RelativeToolTip": "Utilities\\Validations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T03:45:32.38Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

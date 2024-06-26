@@ -1,0 +1,35 @@
+C:\Users\Aamir Hashmi\source\repos\SkyLines\obj\Debug\SkyLines.csproj.AssemblyReference.cache
+C:\Users\Aamir Hashmi\source\repos\SkyLines\obj\Debug\SkyLines.csproj.CoreCompileInputs.cache
+C:\Users\Aamir Hashmi\source\repos\SkyLines\bin\Debug\SkyLines.exe.config
+C:\Users\Aamir Hashmi\source\repos\SkyLines\bin\Debug\SkyLines.exe
+C:\Users\Aamir Hashmi\source\repos\SkyLines\bin\Debug\SkyLines.pdb
+C:\Users\Aamir Hashmi\source\repos\SkyLines\obj\Debug\SkyLines.exe
+C:\Users\Aamir Hashmi\source\repos\SkyLines\obj\Debug\SkyLines.pdb
+E:\SkyLines\bin\Debug\SkyLines.exe.config
+E:\SkyLines\bin\Debug\SkyLines.exe
+E:\SkyLines\bin\Debug\SkyLines.pdb
+E:\SkyLines\obj\Debug\SkyLines.csproj.AssemblyReference.cache
+E:\SkyLines\obj\Debug\SkyLines.csproj.SuggestedBindingRedirects.cache
+E:\SkyLines\obj\Debug\SkyLines.csproj.CoreCompileInputs.cache
+E:\SkyLines\obj\Debug\SkyLines.exe
+E:\SkyLines\obj\Debug\SkyLines.pdb
+I:\SkyLines\bin\Debug\SkyLines.exe.config
+I:\SkyLines\bin\Debug\SkyLines.exe
+I:\SkyLines\bin\Debug\SkyLines.pdb
+I:\SkyLines\bin\Debug\SkyLinesLibrary.dll
+I:\SkyLines\bin\Debug\SkyLinesLibrary.pdb
+I:\SkyLines\obj\Debug\SkyLines.csproj.AssemblyReference.cache
+I:\SkyLines\obj\Debug\SkyLines.csproj.CoreCompileInputs.cache
+I:\SkyLines\obj\Debug\SkyLines.csproj.Up2Date
+I:\SkyLines\obj\Debug\SkyLines.exe
+I:\SkyLines\obj\Debug\SkyLines.pdb
+G:\SkyLinesNew\bin\Debug\SkyLines.exe.config
+G:\SkyLinesNew\bin\Debug\SkyLines.exe
+G:\SkyLinesNew\bin\Debug\SkyLines.pdb
+G:\SkyLinesNew\bin\Debug\SkyLinesLibrary.dll
+G:\SkyLinesNew\bin\Debug\SkyLinesLibrary.pdb
+G:\SkyLinesNew\obj\Debug\SkyLines.csproj.AssemblyReference.cache
+G:\SkyLinesNew\obj\Debug\SkyLines.csproj.CoreCompileInputs.cache
+G:\SkyLinesNew\obj\Debug\SkyLines.csproj.CopyComplete
+G:\SkyLinesNew\obj\Debug\SkyLines.exe
+G:\SkyLinesNew\obj\Debug\SkyLines.pdb
