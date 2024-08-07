@@ -1,0 +1,28 @@
+D:\ASP.NET\Skylines Website\bin\Debug\net8.0\appsettings.Development.json
+D:\ASP.NET\Skylines Website\bin\Debug\net8.0\appsettings.json
+D:\ASP.NET\Skylines Website\bin\Debug\net8.0\Skylines Website.staticwebassets.runtime.json
+D:\ASP.NET\Skylines Website\bin\Debug\net8.0\Skylines Website.exe
+D:\ASP.NET\Skylines Website\bin\Debug\net8.0\Skylines Website.deps.json
+D:\ASP.NET\Skylines Website\bin\Debug\net8.0\Skylines Website.runtimeconfig.json
+D:\ASP.NET\Skylines Website\bin\Debug\net8.0\Skylines Website.dll
+D:\ASP.NET\Skylines Website\bin\Debug\net8.0\Skylines Website.pdb
+D:\ASP.NET\Skylines Website\obj\Debug\net8.0\Skylines Website.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET\Skylines Website\obj\Debug\net8.0\Skylines Website.AssemblyInfoInputs.cache
+D:\ASP.NET\Skylines Website\obj\Debug\net8.0\Skylines Website.AssemblyInfo.cs
+D:\ASP.NET\Skylines Website\obj\Debug\net8.0\Skylines Website.csproj.CoreCompileInputs.cache
+D:\ASP.NET\Skylines Website\obj\Debug\net8.0\Skylines Website.MvcApplicationPartsAssemblyInfo.cache
+D:\ASP.NET\Skylines Website\obj\Debug\net8.0\Skylines Website.RazorAssemblyInfo.cache
+D:\ASP.NET\Skylines Website\obj\Debug\net8.0\Skylines Website.RazorAssemblyInfo.cs
+D:\ASP.NET\Skylines Website\obj\Debug\net8.0\staticwebassets.build.json
+D:\ASP.NET\Skylines Website\obj\Debug\net8.0\staticwebassets.development.json
+D:\ASP.NET\Skylines Website\obj\Debug\net8.0\staticwebassets\msbuild.Skylines Website.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ASP.NET\Skylines Website\obj\Debug\net8.0\staticwebassets\msbuild.build.Skylines Website.props
+D:\ASP.NET\Skylines Website\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Skylines Website.props
+D:\ASP.NET\Skylines Website\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Skylines Website.props
+D:\ASP.NET\Skylines Website\obj\Debug\net8.0\staticwebassets.pack.json
+D:\ASP.NET\Skylines Website\obj\Debug\net8.0\scopedcss\bundle\Skylines Website.styles.css
+D:\ASP.NET\Skylines Website\obj\Debug\net8.0\Skylines Website.dll
+D:\ASP.NET\Skylines Website\obj\Debug\net8.0\refint\Skylines Website.dll
+D:\ASP.NET\Skylines Website\obj\Debug\net8.0\Skylines Website.pdb
+D:\ASP.NET\Skylines Website\obj\Debug\net8.0\Skylines Website.genruntimeconfig.cache
+D:\ASP.NET\Skylines Website\obj\Debug\net8.0\ref\Skylines Website.dll
