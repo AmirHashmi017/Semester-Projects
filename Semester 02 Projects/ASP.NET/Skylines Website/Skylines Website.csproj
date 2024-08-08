@@ -7,4 +7,14 @@
     <RootNamespace>Skylines_Website</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SkyLinesLibrary">
+      <HintPath>D:\Semester 02 Projects\Skylines\SkyLinesLibraryNew\bin\Debug\SkyLinesLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
