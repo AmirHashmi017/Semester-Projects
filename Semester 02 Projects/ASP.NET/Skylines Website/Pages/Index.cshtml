@@ -3,49 +3,417 @@
 @{
     Layout = null;
 }
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="en">
+
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Skylines_Website</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+	<!-- meta data -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<!--font-family-->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+	<!-- title of site -->
+	<title>Directory Landing Page</title>
+
+	<!-- For favicon png -->
+	<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png" />
+
+	<!--font-awesome.min.css-->
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+	<!--linear icon css-->
+	<link rel="stylesheet" href="assets/css/linearicons.css">
+
+	<!--animate.css-->
+	<link rel="stylesheet" href="assets/css/animate.css">
+
+	<!--flaticon.css-->
+	<link rel="stylesheet" href="assets/css/flaticon.css">
+
+	<!--slick.css-->
+	<link rel="stylesheet" href="assets/css/slick.css">
+	<link rel="stylesheet" href="assets/css/slick-theme.css">
+
+	<!--bootstrap.min.css-->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+	<!-- bootsnav -->
+	<link rel="stylesheet" href="assets/css/bootsnav.css">
+
+	<!--style.css-->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!--responsive.css-->
+	<link rel="stylesheet" href="assets/css/responsive.css">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<style>
+		#loginButton:hover {
+			background-color: #0056b3; /* Darker blue on hover */
+			padding: 0.5rem 1rem; /* Ensure padding remains the same */
+			font-size: 16px; /* Keep font size consistent */
+		}
+	</style>
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="~/images/Skylines.png" alt="Logo" width="100" height="64" class="d-inline-block align-text-top">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link text-white" href="#">About</a>
-                        <a class="nav-link text-white" href="#">Contact</a>
-                    </div>
-                    <div class="ms-auto">
-                        <a class="btn btn-outline-light" href="#">Login</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3 mainbody">
-            <!-- Page content goes here -->
-        </main>
-    </div>
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - Skylines_Website - <a asp-area="" asp-page="/Privacy">Privacy</a>
-        </div>
-    </footer>
-    <!-- Bootstrap JavaScript Bundle with Popper -->
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<!--[if lte IE 9]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+	<![endif]-->
+	<!--header-top start -->
+
+	<!--/.header-top-->
+	<!--header-top end -->
+	<!-- top-area Start -->
+	<section class="top-area">
+		<div class="header-area">
+			<!-- Start Navigation -->
+			<nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy" data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+
+				<div class="container">
+
+					<!-- Start Header Navigation -->
+					<div class="navbar-header">
+					<a class="navbar-brand" href="index.html">Sky<span>Lines</span></a>
+				</div><!--/.navbar-header--><!--/.navbar-header-->
+<!--/.navbar-header-->
+					<!-- End Header Navigation -->
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+						<ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+							<li class=" scroll active"><a href="#home">home</a></li>
+							<li class="scroll"><a href="#works">how it works</a></li>
+							<li class="scroll"><a href="#explore">explore</a></li>
+							<li class="scroll" style="margin-left: 20px; padding-top: 5px;padding-bottom:5px;">
+								
+							</li>
+
+						</ul>
+						<a href="/Login" class="btn btn-primary rounded-pill px-4 py-2 ms-auto" style="position:relative;left:70vw;top:3.7vh;background: linear-gradient(90deg, #0069D9, #004085); border: none; color: #fff; transition: background-color 0.3s ease, border-color 0.3s ease; font-size: 16px; padding: 0.5rem 1rem;" id="loginButton">
+							Log In
+						</a>
+
+						
+
+						<!--/.nav -->
+					</div>
+					<!-- /.navbar-collapse -->
+				</div><!--/.container-->
+			</nav><!--/nav-->
+			<!-- End Navigation -->
+		</div><!--/.header-area-->
+		<div class="clearfix"></div>
+
+	</section><!-- /.top-area-->
+	<!-- top-area End -->
+	<!--welcome-hero start -->
+	<section id="home" class="welcome-hero">
+		<div class="container">
+			<div class="welcome-hero-txt">
+				<h2>Experience the Sky Like Never Before<br>Fly with Excellence</h2>
+				<p>
+					Explore the World’s Top Destinations, Book Flights Easily, and Enjoy Premium In-Flight Services with Just One Click.
+				</p>
+
+			</div>
+			
+		</div>
+
+	</section><!--/.welcome-hero-->
+	<!--welcome-hero end -->
+	<!--list-topics start -->
+	
+		<!--/.list-topics-->
+	<!--list-topics end-->
+	<!--works start -->
+	<br><br ><br ><br >
+	<section id="works" class="works">
+		<div class="container">
+			<div class="section-header">
+				<h2>how it works</h2>
+				<p>Learn More about how our website works</p>
+			</div><!--/.section-header-->
+			<div class="works-content">
+				<div class="row">
+					<div class="col-md-4 col-sm-6">
+						<div class="single-how-works">
+							<div class="single-how-works-icon">
+								<i class="flaticon-lightbulb-idea"></i>
+							</div>
+							<h2><a href="#">Choose <span>Your Next Destination</span></a></h2>
+							<p>
+								Explore a world of possibilities with our extensive network of destinations. Whether you're planning a beach vacation, a mountain trek, or a city escape, we've got you covered with unparalleled service and comfort which is just for you.
+							</p>
+
+							<button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+								read more
+							</button>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="single-how-works">
+							<div class="single-how-works-icon">
+								<i class="flaticon-networking"></i>
+							</div>
+							<h2><a href="#">Find <span>Your Perfect Journey</span></a></h2>
+							<p>
+								Whether you're seeking a tropical paradise, a cultural adventure, or a serene retreat, discover your ideal destination with us. Enjoy seamless booking, exceptional service, and unforgettable travel experiences tailored just for you.
+							</p>
+
+							<button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+								read more
+							</button>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="single-how-works">
+							<div class="single-how-works-icon">
+								<i class="flaticon-location-on-road"></i>
+							</div>
+							<h2><a href="#">Explore <span>Amazing Places</span></a></h2>
+							<p>
+								Discover breathtaking destinations around the globe with our extensive network of flights. From iconic landmarks to hidden gems, embark on an unforgettable journey with the comfort and reliability that only we can offer.
+							</p>
+
+							<button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+								read more
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/.container-->
+
+	</section><!--/.works-->
+	<!--works end -->
+	<!--explore start -->
+	<section id="explore" class="explore">
+		<div class="container">
+			<div class="section-header">
+				<h2>explore</h2>
+				<p>Explore New place, food, culture around the world and many more</p>
+			</div><!--/.section-header-->
+			<div class="explore-content">
+				<div class="row">
+					<div class="col-md-4 col-sm-6">
+						<div class="single-explore-item">
+							<div class="single-explore-img">
+								<img src="assets/images/explore/e1.jpg" alt="explore image">
+								<div class="single-explore-img-info">
+								</div>
+							</div>
+							<div class="single-explore-txt bg-theme-2">
+								<h2><a href="#">Germany Tour</a></h2>
+								<p class="explore-rating-price">
+									<span class="explore-rating">4.5</span>
+									<a href="#"> 8 ratings</a>
+									<span class="explore-price-box">
+										form
+										<span class="explore-price">50$-500$</span>
+									</span>
+									<a href="#">hotel</a>
+								</p>
+
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4 col-sm-6">
+						<div class="single-explore-item">
+							<div class="single-explore-img">
+								<img src="assets/images/explore/e2.jpg" alt="explore image">
+								<div class="single-explore-img-info">
+									
+								</div>
+							</div>
+							<div class="single-explore-txt bg-theme-2">
+								<h2><a href="#">Turkey Tour</a></h2>
+								<p class="explore-rating-price">
+									<span class="explore-rating">4.5</span>
+									<a href="#"> 8 ratings</a>
+									<span class="explore-price-box">
+										form
+										<span class="explore-price">50$-500$</span>
+									</span>
+									<a href="#">hotel</a>
+								</p>
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="single-explore-item">
+							<div class="single-explore-img">
+								<img src="assets/images/explore/e3.jpg" alt="explore image">
+								<div class="single-explore-img-info">
+								</div>
+							</div>
+							<div class="single-explore-txt bg-theme-2">
+								<h2><a href="#">Europe Tour</a></h2>
+								<p class="explore-rating-price">
+									<span class="explore-rating">4.5</span>
+									<a href="#"> 5 ratings</a>
+									<span class="explore-price-box">
+										form
+										<span class="explore-price">50$-200$</span>
+									</span>
+									<a href="#">hotel</a>
+								</p>
+
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="single-explore-item">
+							<div class="single-explore-img">
+								<img src="assets/images/explore/e4.jpg" alt="explore image">
+								<div class="single-explore-img-info">
+								</div>
+							</div>
+							<div class="single-explore-txt bg-theme-2">
+								<h2><a href="#">Brazil Tour</a></h2>
+								<p class="explore-rating-price">
+									<span class="explore-rating">4.5</span>
+									<a href="#"> 4 ratings</a>
+									<span class="explore-price-box">
+										form
+										<span class="explore-price">50$-500$</span>
+									</span>
+									<a href="#">hotel</a>
+								</p>
+
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="single-explore-item">
+							<div class="single-explore-img">
+								<img src="assets/images/explore/e5.jpg" alt="explore image">
+								<div class="single-explore-img-info">
+								</div>
+							</div>
+							<div class="single-explore-txt bg-theme-2">
+								<h2><a href="#">Malaysia Tour</a></h2>
+								<p class="explore-rating-price">
+									<span class="explore-rating">4.5</span>
+									<a href="#"> 8 ratings</a>
+									<span class="explore-price-box">
+										form
+										<span class="explore-price">50$-500$</span>
+									</span>
+									<a href="#">hotel</a>
+								</p>
+
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="single-explore-item">
+							<div class="single-explore-img">
+								<img src="assets/images/explore/e6.jpg" alt="explore image">
+								<div class="single-explore-img-info">
+								</div>
+							</div>
+							<div class="single-explore-txt bg-theme-2">
+								<h2><a href="#">Japan Tour</a></h2>
+								<p class="explore-rating-price">
+									<span class="explore-rating">4.5</span>
+									<a href="#"> 8 ratings</a>
+									<span class="explore-price-box">
+										form
+										<span class="explore-price">50$-500$</span>
+									</span>
+									<a href="#">hotel</a>
+								</p>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/.container-->
+
+	</section><!--/.explore-->
+	<!--explore end -->
+	<!--reviews start -->
+	
+	
+	<footer id="footer" class="footer">
+		<div class="container">
+			<div class="footer-menu">
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="navbar-header">
+							<a class="navbar-brand" href="index.html">Sky<span>Lines</span></a>
+						</div><!--/.navbar-header-->
+					</div>
+					<div class="col-sm-9">
+						<ul class="footer-menu-item">
+							<li class="scroll"><a href="#works">how it works</a></li>
+							<li class="scroll"><a href="#explore">explore</a></li>
+						</ul><!--/.nav -->
+					</div>
+				</div>
+			</div>
+			<div class="hm-footer-copyright">
+				<div class="row">
+					<div class="col-sm-5">
+						<p>
+							&copy;copyright. designed and developed by Amir Hashmi
+						</p><!--/p-->
+					</div>
+					<div class="col-sm-7">
+						<div class="footer-social">
+							<span><i class="fa fa-phone"> +92 3284136880</i></span>
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		
+
+	</footer>
+	
+
+	<script src="assets/js/jquery.js"></script>
+
+	<!--modernizr.min.js-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+	<!--bootstrap.min.js-->
+	<script src="assets/js/bootstrap.min.js"></script>
+
+	<!-- bootsnav js -->
+	<script src="assets/js/bootsnav.js"></script>
+
+	<!--feather.min.js-->
+	<script src="assets/js/feather.min.js"></script>
+
+	<!-- counter js -->
+	<script src="assets/js/jquery.counterup.min.js"></script>
+	<script src="assets/js/waypoints.min.js"></script>
+
+	<!--slick.min.js-->
+	<script src="assets/js/slick.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+	<!--Custom JS-->
+	<script src="assets/js/custom.js"></script>
+
 </body>
+
 </html>

@@ -26,3 +26,32 @@ D:\ASP.NET\Skylines Website\obj\Debug\net8.0\refint\Skylines Website.dll
 D:\ASP.NET\Skylines Website\obj\Debug\net8.0\Skylines Website.pdb
 D:\ASP.NET\Skylines Website\obj\Debug\net8.0\Skylines Website.genruntimeconfig.cache
 D:\ASP.NET\Skylines Website\obj\Debug\net8.0\ref\Skylines Website.dll
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\bin\Debug\net8.0\appsettings.json
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\bin\Debug\net8.0\Skylines Website.staticwebassets.runtime.json
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\bin\Debug\net8.0\Skylines Website.exe
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\bin\Debug\net8.0\Skylines Website.deps.json
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\bin\Debug\net8.0\Skylines Website.runtimeconfig.json
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\bin\Debug\net8.0\Skylines Website.dll
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\bin\Debug\net8.0\Skylines Website.pdb
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\obj\Debug\net8.0\Skylines Website.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\obj\Debug\net8.0\Skylines Website.AssemblyInfoInputs.cache
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\obj\Debug\net8.0\Skylines Website.AssemblyInfo.cs
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\obj\Debug\net8.0\Skylines Website.csproj.CoreCompileInputs.cache
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\obj\Debug\net8.0\Skylines Website.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\obj\Debug\net8.0\Skylines Website.RazorAssemblyInfo.cache
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\obj\Debug\net8.0\Skylines Website.RazorAssemblyInfo.cs
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\obj\Debug\net8.0\Skylines Website.sourcelink.json
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\obj\Debug\net8.0\staticwebassets\msbuild.Skylines Website.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\obj\Debug\net8.0\staticwebassets\msbuild.build.Skylines Website.props
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Skylines Website.props
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Skylines Website.props
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\obj\Debug\net8.0\scopedcss\bundle\Skylines Website.styles.css
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\obj\Debug\net8.0\Skylines Website.dll
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\obj\Debug\net8.0\refint\Skylines Website.dll
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\obj\Debug\net8.0\Skylines Website.pdb
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\obj\Debug\net8.0\Skylines Website.genruntimeconfig.cache
+C:\Users\T L S\Documents\GitHub\Semester-Projects\Semester 02 Projects\ASP.NET\Skylines Website\obj\Debug\net8.0\ref\Skylines Website.dll
