@@ -1,0 +1,36 @@
+﻿body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position:relative;
+    top:40px;
+    max-width: 60vw;
+    margin: auto;
+}
+
+.grid {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .grid th, .grid td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+       
+    }
+
+    .grid th {
+        background-color: navy;
+        color: white;
+    }
+
+    .grid tr:hover {
+        background-color: #f1f1f1;
+        cursor: pointer;
+    }
+    .grid tr:nth-child(Even)
+    {
+       
+    }

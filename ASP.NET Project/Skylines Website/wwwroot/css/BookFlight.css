@@ -1,0 +1,83 @@
+﻿h1 {
+    margin-top:30px !important;
+    font-family: "Trebuchet MS";
+    font-style: italic;
+    font-size: 60px !important;
+    color: navy;
+    font-weight: 800 !important;
+    text-align:center;
+}
+.form {
+    width: 17vw !important;
+    border-radius: 20px !important;
+    background-color: white !important;
+}
+label
+{
+    width:13vw;
+    font-family:'Times New Roman';
+    font-size:23px !important;
+    font-style:italic !important;
+    color:navy;
+    font-weight:900 !important;
+}
+#labelinput{
+    display:flex;
+    
+}
+#mainform
+{
+    width:70vw;
+    margin:auto;
+    margin-top:60px !important;
+    display:flex;
+    flex-direction:column;
+    row-gap:50px !important;
+}
+.row1
+{
+column-gap:2px;
+}
+#buttonclear {
+    background: linear-gradient(90deg, Navy, rgb(0, 0, 192));
+    border: none !important;
+    color: #fff;
+    width: 8vw;
+    font-size: 16px;
+    padding: 0.5rem 1rem;
+}
+#buttonclear:focus {
+    box-shadow: none !important;
+    border: none !important;
+    /* Darker blue on hover */
+    padding: 0.5rem 1rem; /* Ensure padding remains the same */
+    font-size: 16px;
+}
+#buttonsubmit {
+    background: linear-gradient(90deg, Green, SeaGreen);
+    border: none;
+    color: #fff;
+    width:8vw;
+    font-size: 16px;
+    padding: 0.5rem 1rem;
+}
+
+   button:hover {
+        box-shadow:none !important;
+        border:none !important;
+         /* Darker blue on hover */
+        padding: 0.5rem 1rem; /* Ensure padding remains the same */
+        font-size: 16px;
+    }
+input.form-control:focus {
+    border: 3px solid #0056b3 !important;
+     /* Example hover effect */
+    /* Example hover effect */
+    box-shadow:none !important;
+}
+.buttons{
+    
+    display:flex;
+    column-gap:49vw;
+   
+}

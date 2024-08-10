@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Skylines Website")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b032c649544ec6146c2d6c17a2a78d1ac4cb331b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Skylines Website")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Skylines Website")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

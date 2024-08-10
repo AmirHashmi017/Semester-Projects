@@ -3,7 +3,7 @@
 @{
     Layout = null;
 }
-
+@using SkyLinesLibrary;
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +13,8 @@
     <link href="~/css/sidebar.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/BookFlight.css" rel="stylesheet" />
+    <link href="~/css/Grid.css" rel="stylesheet"/>
 </head>
 <body>
     <div class="container-fluid">
@@ -24,11 +26,74 @@
 
             <!-- Main Content Area -->
             <div class="col-lg-10">
-                <p>How are you</p>
+                <h1>Book Flight</h1>
+                <form method=" post">
+                <div id="mainform">
+                <div class="row row1">
+                    <div class="col" id="labelinput">
+                        <label for="FlightID">Flight ID: </label>
+                        <input type="text" class="form-control form" id="FlightID" placeholder="Flight ID" aria-label="First name" required>
+                    </div>
+                    <div class="col" id="labelinput">
+                        <label for="FlightName">Flight Name: </label>
+                                <input type="text" class="form-control form" id="FlightName" placeholder="Flight Name" aria-label="Last name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col" id="labelinput">
+                        <label for="DepartureAirport">Departure Airport: </label>
+                                <input type="text" class="form-control form" id="DepartureAirport" placeholder="Departure Airport" aria-label="First name" readonly>
+                    </div>
+                    <div class="col" id="labelinput">
+                        <label for="ArrivalAirport">Arrival Airport: </label>
+                                <input type="text" class="form-control form" id="ArrivalAirport" placeholder="Arrival Airport" aria-label="Last name" readonly>
+                    </div>
+                </div>
+                <div class="buttons">
+                            <button type="reset" class="btn btn-primary rounded-pill px-4 py-2 ms-auto" id="buttonclear">Clear</button>
+                            <button type="submit" class="btn btn-primary rounded-pill px-4 py-2 ms-auto" id="buttonsubmit">Book</button>
+                           
+                </div>
+                </div>
+                </form>
+                <div class="container">
+                    <table id="dataGrid" class="grid">
+                        <thead>
+                            <tr>
+                                <th>Flight ID</th>
+                                <th>Flight Name</th>
+                                <th>Departure Airport</th>
+                                <th>Arrival Airport</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                @foreach (Flight f in Model.Flights)
+                                {
+                                    <tr onclick="selectRow('@f.GetFlightID()', '@f.GetFlightName()', '@f.GetSource()','@f.GetDestination()')">
+                                        <td>@f.GetFlightID()</td>
+                                        <td>@f.GetFlightName()</td>
+                                        <td>@f.GetSource()</td>
+                                        <td>@f.GetDestination()</td>
+                                    <td>@f.GetPrice()</td>
+                                    </tr>
+                                }
+                            <!-- Rows will be dynamically added here -->
+                        </tbody>
+                    </table>
+                    </div>
                 <!-- Add your main content here -->
             </div>
         </div>
     </div>
+    <script>
+        function selectRow(flightId, flightName, source,destination) {
+            document.getElementById('FlightID').value = flightId;
+            document.getElementById('FlightName').value = flightName;
+            document.getElementById('DepartureAirport').value = source;
+            document.getElementById('ArrivalAirport').value = destination;
+        }
+    </script>
 
     <!-- Include your JS files here -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>

@@ -9,51 +9,51 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Skylines_Website
 build_property.RootNamespace = Skylines_Website
-build_property.ProjectDir = D:\Semester 02 Projects\ASP.NET\Skylines Website\
+build_property.ProjectDir = C:\Users\T L S\Documents\GitHub\Semester-Projects\ASP.NET Project\Skylines Website\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Semester 02 Projects\ASP.NET\Skylines Website
+build_property.MSBuildProjectDirectory = C:\Users\T L S\Documents\GitHub\Semester-Projects\ASP.NET Project\Skylines Website
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Semester 02 Projects/ASP.NET/Skylines Website/Pages/AddFlight.cshtml]
+[C:/Users/T L S/Documents/GitHub/Semester-Projects/ASP.NET Project/Skylines Website/Pages/AddFlight.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkRmxpZ2h0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 02 Projects/ASP.NET/Skylines Website/Pages/BookFlight.cshtml]
+[C:/Users/T L S/Documents/GitHub/Semester-Projects/ASP.NET Project/Skylines Website/Pages/BookFlight.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va0ZsaWdodC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 02 Projects/ASP.NET/Skylines Website/Pages/Error.cshtml]
+[C:/Users/T L S/Documents/GitHub/Semester-Projects/ASP.NET Project/Skylines Website/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 02 Projects/ASP.NET/Skylines Website/Pages/Index.cshtml]
+[C:/Users/T L S/Documents/GitHub/Semester-Projects/ASP.NET Project/Skylines Website/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 02 Projects/ASP.NET/Skylines Website/Pages/Login.cshtml]
+[C:/Users/T L S/Documents/GitHub/Semester-Projects/ASP.NET Project/Skylines Website/Pages/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 02 Projects/ASP.NET/Skylines Website/Pages/Shared/AdminSidebar.cshtml]
+[C:/Users/T L S/Documents/GitHub/Semester-Projects/ASP.NET Project/Skylines Website/Pages/Shared/AdminSidebar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEFkbWluU2lkZWJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 02 Projects/ASP.NET/Skylines Website/Pages/Shared/UserSidebar.cshtml]
+[C:/Users/T L S/Documents/GitHub/Semester-Projects/ASP.NET Project/Skylines Website/Pages/Shared/UserSidebar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFVzZXJTaWRlYmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 02 Projects/ASP.NET/Skylines Website/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/T L S/Documents/GitHub/Semester-Projects/ASP.NET Project/Skylines Website/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 02 Projects/ASP.NET/Skylines Website/Pages/_ViewImports.cshtml]
+[C:/Users/T L S/Documents/GitHub/Semester-Projects/ASP.NET Project/Skylines Website/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 02 Projects/ASP.NET/Skylines Website/Pages/_ViewStart.cshtml]
+[C:/Users/T L S/Documents/GitHub/Semester-Projects/ASP.NET Project/Skylines Website/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
