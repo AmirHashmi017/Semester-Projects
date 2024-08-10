@@ -24,19 +24,18 @@ namespace Skylines_Website.Pages
                 {
                     int Index = ObjectHandler.GetClientDL().FindClient(Name, Password);
                     result = "User";
-                TempData["SuccessMessage"] = "Successfully signed In as User!";
-                return Page();
+                return RedirectToPage("BookFlight");
+
             }
                 else if (ObjectHandler.GetAdminDL().IsAdminExist(Name, Password))
                 {
                     result = "admin";
-                TempData["SuccessMessage"] = "Successfully signed In as an Admin!";
-                return Page();
+                return RedirectToPage("AddFlight");
+
             }
                 if (result != "")
-                {
-
-                TempData["RedirectUrl"] = Url.Page("Index");
+                { 
+                return Page();
             }
             TempData["SuccessMessage"] = "You Don't have an account please Sign Up!";
             return Page();
@@ -63,7 +62,7 @@ namespace Skylines_Website.Pages
                     }
 
 
-                    TempData["RedirectUrl"] = Url.Page("Index");
+                    TempData["RedirectUrl"] = Url.Page("AddFlight");
                    
                 }
 
