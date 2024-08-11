@@ -16,6 +16,7 @@ namespace Skylines_Website.Pages
         public string Role { get; set; }
         public void OnGet()
         {
+            HttpContext.Session.Remove("UserIndex");
         }
         public IActionResult OnPostSignIn()
         {
@@ -23,6 +24,7 @@ namespace Skylines_Website.Pages
                 if (ObjectHandler.GetClientDL().IsClientExist(Name, Password))
                 {
                     int Index = ObjectHandler.GetClientDL().FindClient(Name, Password);
+                HttpContext.Session.SetInt32("UserIndex", Index);
                     result = "User";
                 return RedirectToPage("BookFlight");
 

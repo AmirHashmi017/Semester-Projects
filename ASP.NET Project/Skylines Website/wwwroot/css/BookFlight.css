@@ -61,6 +61,14 @@ column-gap:2px;
     font-size: 16px;
     padding: 0.5rem 1rem;
 }
+#buttonsubmitred {
+    background: red;
+    border: none;
+    color: #fff;
+    width: 8vw;
+    font-size: 16px;
+    padding: 0.5rem 1rem;
+}
 
    button:hover {
         box-shadow:none !important;
