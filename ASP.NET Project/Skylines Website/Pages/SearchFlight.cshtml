@@ -4,6 +4,7 @@
     Layout = null;
 }
 @using SkyLinesLibrary;
+@using SkyLines_Website;
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,13 +33,25 @@
                         <div class="row">
                             <div class="col" id="labelinput">
                                 <label for="DepartureAirport">Departure Airport: </label>
-                                <input type="text" class="form-control form" id="DepartureAirport" placeholder="Departure Airport" aria-label="First name" asp-for="Departure">
+                                <select class="form-control form" id="DepartureAirport" asp-for="Departure" aria-label="Departure Airport">
+                                    <option value="">Select Departure Airport</option>
+                                    @foreach (Flight f in @ObjectHandler.GetFlightDL().GetAllFlights())
+                                    {
+                                        <option value="@f.GetSource()">@f.GetSource()</option>
+                                    }
+                                </select>
                             </div>
                             <div class="col" id="labelinput">
                                 <label for="ArrivalAirport">Arrival Airport: </label>
-                                <input type="text" class="form-control form" id="ArrivalAirport" placeholder="Arrival Airport" aria-label="Last name" asp-for="Arrival">
+                                <select class="form-control form" id="ArrivalAirport" asp-for="Arrival" aria-label="Arrival Airport">
+                                    <option value="">Select Arrival Airport</option>
+                                    @foreach (Flight f in @ObjectHandler.GetFlightDL().GetAllFlights())
+                                    {
+                                        <option value="@f.GetDestination()">@f.GetDestination()</option>
+                                    }
+                                </select>
                             </div>
-                        </div>
+                            </div>
                         <div class="buttons">
                             <button type="reset" class="btn btn-primary rounded-pill px-4 py-2 ms-auto" id="buttonclear">Clear</button>
                             <button type="submit" class="btn btn-primary rounded-pill px-4 py-2 ms-auto" id="buttonsubmit">Search</button>
