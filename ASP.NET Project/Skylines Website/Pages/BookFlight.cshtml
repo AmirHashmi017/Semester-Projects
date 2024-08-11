@@ -64,6 +64,8 @@
                                 <th>Flight Name</th>
                                 <th>Departure Airport</th>
                                 <th>Arrival Airport</th>
+                                <th>Travel Date</th>
+                                <th>Departure Time</th>
                                 <th>Price</th>
                             </tr>
                         </thead>
@@ -75,6 +77,8 @@
                                         <td>@f.GetFlightName()</td>
                                         <td>@f.GetSource()</td>
                                         <td>@f.GetDestination()</td>
+                                    <td>@f.GetTravelDate()</td>
+                                    <td>@f.GetTakeoffTime()</td>
                                     <td>@f.GetPrice()</td>
                                     </tr>
                                 }

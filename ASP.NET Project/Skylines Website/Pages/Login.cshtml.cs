@@ -26,7 +26,7 @@ namespace Skylines_Website.Pages
                     int Index = ObjectHandler.GetClientDL().FindClient(Name, Password);
                 HttpContext.Session.SetInt32("UserIndex", Index);
                     result = "User";
-                return RedirectToPage("BookFlight");
+                return RedirectToPage("SearchFlight");
 
             }
                 else if (ObjectHandler.GetAdminDL().IsAdminExist(Name, Password))
