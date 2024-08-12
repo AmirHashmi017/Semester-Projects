@@ -1,5 +1,5 @@
 ﻿@page
-@model Skylines_Website.Pages.AddFlightModel
+@model Skylines_Website.Pages.EditFlightModel
 @{
     Layout = null;
 }
@@ -9,12 +9,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add Flight</title>
+    <title>Edit Flight</title>
     <link href="~/css/sidebar.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="~/css/BookFlight.css" rel="stylesheet" />
-    <link href="~/css/Grid.css" rel="stylesheet"/>
+    <link href="~/css/Grid.css" rel="stylesheet" />
     <style>
         .mainform1
         {
@@ -37,37 +37,37 @@
 
             <!-- Main Content Area -->
             <div class="col-lg-10">
-                <h1>Add Flight</h1>
+                <h1>Edit Flight's Schedule</h1>
                 <form method="post">
-                <div class="mainform1">
-                <div class="row row1">
-                    <div class="col" id="labelinput">
-                        <label for="FlightID">Flight ID: </label>
-                        <input type="text" class="form-control form" id="FlightID" placeholder="Flight ID" aria-label="First name" required asp-for="FlightID">
-                    </div>
-                    <div class="col" id="labelinput">
-                        <label for="FlightName">Flight Name: </label>
-                                <input type="text" class="form-control form" id="FlightName" placeholder="Flight Name" aria-label="Last name" required asp-for="FlightName">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col" id="labelinput">
-                        <label for="DepartureAirport">Departure Airport: </label>
+                    <div class="mainform1">
+                        <div class="row row1">
+                            <div class="col" id="labelinput">
+                                <label for="FlightID">Flight ID: </label>
+                                <input type="text" class="form-control form" id="FlightID" placeholder="Flight ID" aria-label="First name" required asp-for="FlightID" readonly>
+                            </div>
+                            <div class="col" id="labelinput">
+                                <label for="FlightName">Flight Name: </label>
+                                <input type="text" class="form-control form" id="FlightName" placeholder="Flight Name" aria-label="Last name" required asp-for="FlightName" readonly>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col" id="labelinput">
+                                <label for="DepartureAirport">Departure Airport: </label>
                                 <input type="text" class="form-control form" id="DepartureAirport" placeholder="Departure Airport" aria-label="First name" required asp-for="Departure">
-                    </div>
-                    <div class="col" id="labelinput">
-                        <label for="ArrivalAirport">Arrival Airport: </label>
+                            </div>
+                            <div class="col" id="labelinput">
+                                <label for="ArrivalAirport">Arrival Airport: </label>
                                 <input type="text" class="form-control form" id="ArrivalAirport" placeholder="Arrival Airport" aria-label="Last name" required asp-for="Arrival">
-                    </div>
-                </div>
+                            </div>
+                        </div>
                         <div class="row">
                             <div class="col" id="labelinput">
                                 <label for="TravelDate">Travel Date: </label>
-                                <input type="date" class="form-control form" id="TravelDate"  aria-label="First name" required asp-for="TravelDate">
+                                <input type="date" class="form-control form" id="TravelDate" aria-label="First name" required asp-for="TravelDate">
                             </div>
                             <div class="col" id="labelinput">
                                 <label for="TakeoffTime">Takeoff Time: </label>
-                                <input type="time" class="form-control form" id="TakeoffTime"  aria-label="Last name" required asp-for="TakeoffTime">
+                                <input type="time" class="form-control form" id="TakeoffTime" aria-label="Last name" required asp-for="TakeoffTime">
                             </div>
                         </div>
                         <div class="row">
@@ -80,12 +80,12 @@
                                 <input type="number" class="form-control form" id="Seats" placeholder="Seats" aria-label="Last name" required asp-for="Seats">
                             </div>
                         </div>
-                <div class="buttons">
+                        <div class="buttons">
                             <button type="reset" class="btn btn-primary rounded-pill px-4 py-2 ms-auto" id="buttonclear">Clear</button>
-                            <button type="submit" class="btn btn-primary rounded-pill px-4 py-2 ms-auto" id="buttonsubmit">Add</button>
-                           
-                </div>
-                </div>
+                            <button type="submit" class="btn btn-primary rounded-pill px-4 py-2 ms-auto" id="buttonsubmit">Edit</button>
+
+                        </div>
+                    </div>
                 </form>
                 <div class="container">
                     <table id="dataGrid" class="grid">
@@ -102,23 +102,23 @@
                             </tr>
                         </thead>
                         <tbody>
-                                @foreach (Flight f in Model.Flights)
-                                {
-                                    <tr>
-                                        <td>@f.GetFlightID()</td>
-                                        <td>@f.GetFlightName()</td>
-                                        <td>@f.GetSource()</td>
-                                        <td>@f.GetDestination()</td>
+                            @foreach (Flight f in Model.Flights)
+                            {
+                                <tr onclick="selectRow('@f.GetFlightID()', '@f.GetFlightName()', '@f.GetSource()','@f.GetDestination()','@f.GetTravelDate()','@f.GetTakeoffTime()','@f.GetPrice()','@f.GetSeats()')">
+                                    <td>@f.GetFlightID()</td>
+                                    <td>@f.GetFlightName()</td>
+                                    <td>@f.GetSource()</td>
+                                    <td>@f.GetDestination()</td>
                                     <td>@f.GetTravelDate()</td>
                                     <td>@f.GetTakeoffTime()</td>
                                     <td>@f.GetPrice()</td>
                                     <td>@f.GetSeats()</td>
-                                    </tr>
-                                }
+                                </tr>
+                            }
                             <!-- Rows will be dynamically added here -->
                         </tbody>
                     </table>
-                    </div>
+                </div>
                 <!-- Add your main content here -->
             </div>
         </div>
@@ -129,7 +129,18 @@
             alert('@TempData["ErrorMessage"]');
         </script>
     }
-    
+    <script>
+        function selectRow(flightId, flightName, source, destination, tdate, ttime, price, seats) {
+            document.getElementById('FlightID').value = flightId;
+            document.getElementById('FlightName').value = flightName;
+            document.getElementById('DepartureAirport').value = source;
+            document.getElementById('ArrivalAirport').value = destination;
+            document.getElementById('TravelDate').value = tdate;
+            document.getElementById('TakeoffTime').value = ttime;
+            document.getElementById('Price').value = price;
+            document.getElementById('Seats').value = seats;
+        }
+    </script>
 
     <!-- Include your JS files here -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -137,4 +148,3 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
-

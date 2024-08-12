@@ -30,6 +30,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuY2VsRmxpZ2h0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/T L S/Documents/GitHub/Semester-Projects/ASP.NET Project/Skylines Website/Pages/EditFlight.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEZsaWdodC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/T L S/Documents/GitHub/Semester-Projects/ASP.NET Project/Skylines Website/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -56,6 +60,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/T L S/Documents/GitHub/Semester-Projects/ASP.NET Project/Skylines Website/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/T L S/Documents/GitHub/Semester-Projects/ASP.NET Project/Skylines Website/Pages/ViewFlights.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld0ZsaWdodHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/T L S/Documents/GitHub/Semester-Projects/ASP.NET Project/Skylines Website/Pages/ViewFlightsRevenue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld0ZsaWdodHNSZXZlbnVlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/T L S/Documents/GitHub/Semester-Projects/ASP.NET Project/Skylines Website/Pages/ViewReservedFlights.cshtml]

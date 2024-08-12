@@ -51,6 +51,27 @@ namespace SkyLines_Website
         {
             return FlightDL;
         }
+        public static int GetSeatsBooked(string FlightID)
+        {
+            int bookedseats = 0;
+            List<Client> clients = ObjectHandler.GetClientDL().GetAllClients();
+            foreach (Client C in clients)
+            {
+                foreach (Flight F in C.GetBookedFlights())
+                {
+                    if (FlightID == F.GetFlightID())
+                        bookedseats++;
+                }
+            }
+            return bookedseats;
+        }
+        public static double GetSeatsBookedPrice(Flight fl)
+        {
+            int bookedseats = GetSeatsBooked(fl.GetFlightID());
+            double price = fl.GetPrice() * bookedseats;
+            return price;
+            
+        }
     }
 }
 

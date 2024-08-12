@@ -2,12 +2,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using SkyLines_Website;
 using SkyLinesLibrary;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-using System.Xml.Linq;
 
 namespace Skylines_Website.Pages
 {
-    public class AddFlightModel : PageModel
+    public class EditFlightModel : PageModel
     {
         [BindProperty]
         public List<Flight> Flights { get; set; }
@@ -18,7 +16,7 @@ namespace Skylines_Website.Pages
         [BindProperty]
         public string Departure { get; set; }
         [BindProperty]
-        public string Arrival{ get; set; }
+        public string Arrival { get; set; }
         [BindProperty]
         public DateOnly TravelDate { get; set; }
         [BindProperty]
@@ -34,18 +32,10 @@ namespace Skylines_Website.Pages
         }
         public IActionResult OnPost()
         {
-            if (ObjectHandler.GetFlightDL().CheckValidFlightID(FlightID))
-            {
-                string traveldate = TravelDate.ToString();
-                string takeofftime = TakeoffTime.ToString();
-                Flight f = new Flight(FlightID, FlightName, Departure, Arrival, traveldate, takeofftime, Price, Seats);
-                ObjectHandler.GetFlightDL().AddFlight(f);
-                TempData["ErrorMessage"]="Flight Added Successfully";
-                Flights = ObjectHandler.GetFlightDL().GetAllFlights();
-                return RedirectToPage();
-            }
-            TempData["ErrorMessage"] = "Flight ID already exists";
-            Flights = ObjectHandler.GetFlightDL().GetAllFlights();
+            string tdate = TravelDate.ToString();
+            string takeoff = TakeoffTime.ToString();
+            ObjectHandler.GetFlightDL().EditFlight(FlightName, FlightID, Departure, Arrival, tdate, takeoff, Price, Seats);
+            TempData["ErrorMessage"] = "Flight Edited Successfully";
             return RedirectToPage();
         }
     }

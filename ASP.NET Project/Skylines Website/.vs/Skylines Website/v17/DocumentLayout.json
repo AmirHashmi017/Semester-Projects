@@ -3,79 +3,100 @@
   "WorkspaceRootPath": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\searchflight.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\searchflight.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\searchflight.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\searchflight.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\objecthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:objecthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\wwwroot\\css\\bookflight.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:wwwroot\\css\\bookflight.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\shared\\adminsidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\shared\\adminsidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\shared\\usersidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\shared\\usersidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\cancelflight.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\cancelflight.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\wwwroot\\css\\grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:wwwroot\\css\\grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\wwwroot\\css\\sidebar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:wwwroot\\css\\sidebar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\bookflight.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\bookflight.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\searchflight.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\searchflight.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\bookflight.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\bookflight.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\cancelflight.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\cancelflight.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\viewreservedflights.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\viewreservedflights.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\viewflightsrevenue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\viewflightsrevenue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\viewreservedflights.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\viewreservedflights.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\wwwroot\\css\\bookflight.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:wwwroot\\css\\bookflight.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\viewreservedflights.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\viewreservedflights.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\wwwroot\\css\\grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:wwwroot\\css\\grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\viewflightsrevenue.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\viewflightsrevenue.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\addflight.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\addflight.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\viewflights.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\viewflights.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\viewflights.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\viewflights.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\searchflight.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\searchflight.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\editflight.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\editflight.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\editflight.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\editflight.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\cancelflight.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\cancelflight.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\cancelflight.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\cancelflight.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\bookflight.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\bookflight.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\addflight.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\addflight.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\addflight.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\addflight.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -86,20 +107,27 @@
       "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\shared\\usersidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\shared\\usersidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\bookflight.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\bookflight.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\objecthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:objecthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\shared\\usersidebar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:pages\\shared\\usersidebar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\wwwroot\\css\\sidebar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|solutionrelative:wwwroot\\css\\sidebar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE421544-472D-4043-98E7-79B7A6251987}|Skylines Website.csproj|c:\\users\\t l s\\documents\\github\\semester-projects\\asp.net project\\skylines website\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -117,44 +145,59 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BookFlight.cshtml",
-              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\BookFlight.cshtml",
-              "RelativeDocumentMoniker": "Pages\\BookFlight.cshtml",
-              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\BookFlight.cshtml",
-              "RelativeToolTip": "Pages\\BookFlight.cshtml",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAuwHAAAAAHAAAA",
+              "DocumentIndex": 7,
+              "Title": "ViewFlightsRevenue.cshtml",
+              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\ViewFlightsRevenue.cshtml",
+              "RelativeDocumentMoniker": "Pages\\ViewFlightsRevenue.cshtml",
+              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\ViewFlightsRevenue.cshtml",
+              "RelativeToolTip": "Pages\\ViewFlightsRevenue.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-10T12:06:25.373Z"
+              "WhenOpened": "2024-08-12T08:06:27.218Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\Login.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Login.cshtml",
-              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\Login.cshtml",
-              "RelativeToolTip": "Pages\\Login.cshtml",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T11:25:49.252Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "SearchFlight.cshtml",
               "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\SearchFlight.cshtml",
               "RelativeDocumentMoniker": "Pages\\SearchFlight.cshtml",
               "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\SearchFlight.cshtml",
               "RelativeToolTip": "Pages\\SearchFlight.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACcAAABBAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-11T13:09:48.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "BookFlight.css",
+              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\wwwroot\\css\\BookFlight.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\BookFlight.css",
+              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\wwwroot\\css\\BookFlight.css",
+              "RelativeToolTip": "wwwroot\\css\\BookFlight.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-10T13:34:02.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Grid.css",
+              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\wwwroot\\css\\Grid.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Grid.css",
+              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\wwwroot\\css\\Grid.css",
+              "RelativeToolTip": "wwwroot\\css\\Grid.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-10T15:59:19.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Login.css",
               "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\wwwroot\\css\\Login.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\Login.css",
@@ -162,36 +205,116 @@
               "RelativeToolTip": "wwwroot\\css\\Login.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAKgAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-08T11:35:46.288Z"
+              "WhenOpened": "2024-08-08T11:35:46.288Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CancelFlight.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\CancelFlight.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\CancelFlight.cshtml.cs",
-              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\CancelFlight.cshtml.cs",
-              "RelativeToolTip": "Pages\\CancelFlight.cshtml.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAcwBIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T11:00:23.616Z"
+              "DocumentIndex": 4,
+              "Title": "sidebar.css",
+              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\wwwroot\\css\\sidebar.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\sidebar.css",
+              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\wwwroot\\css\\sidebar.css",
+              "RelativeToolTip": "wwwroot\\css\\sidebar.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-10T10:11:37.149Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ObjectHandler.cs",
-              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\ObjectHandler.cs",
-              "RelativeDocumentMoniker": "ObjectHandler.cs",
-              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\ObjectHandler.cs",
-              "RelativeToolTip": "ObjectHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAACXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T13:24:44.479Z",
+              "DocumentIndex": 5,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-07T10:53:20.569Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AdminSidebar.cshtml",
+              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\Shared\\AdminSidebar.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\AdminSidebar.cshtml",
+              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\Shared\\AdminSidebar.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\AdminSidebar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-10T10:29:44.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ViewReservedFlights.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\ViewReservedFlights.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\ViewReservedFlights.cshtml.cs",
+              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\ViewReservedFlights.cshtml.cs",
+              "RelativeToolTip": "Pages\\ViewReservedFlights.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T12:44:42.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ViewReservedFlights.cshtml",
+              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\ViewReservedFlights.cshtml",
+              "RelativeDocumentMoniker": "Pages\\ViewReservedFlights.cshtml",
+              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\ViewReservedFlights.cshtml",
+              "RelativeToolTip": "Pages\\ViewReservedFlights.cshtml",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAAE0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-11T12:44:23.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ViewFlightsRevenue.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\ViewFlightsRevenue.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\ViewFlightsRevenue.cshtml.cs",
+              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\ViewFlightsRevenue.cshtml.cs",
+              "RelativeToolTip": "Pages\\ViewFlightsRevenue.cshtml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwBIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T08:12:14.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ViewFlights.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\ViewFlights.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\ViewFlights.cshtml.cs",
+              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\ViewFlights.cshtml.cs",
+              "RelativeToolTip": "Pages\\ViewFlights.cshtml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T08:01:14.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ViewFlights.cshtml",
+              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\ViewFlights.cshtml",
+              "RelativeDocumentMoniker": "Pages\\ViewFlights.cshtml",
+              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\ViewFlights.cshtml",
+              "RelativeToolTip": "Pages\\ViewFlights.cshtml",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAAE8AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T08:00:33.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "SearchFlight.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\SearchFlight.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\SearchFlight.cshtml.cs",
@@ -204,33 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserSidebar.cshtml",
-              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\Shared\\UserSidebar.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Shared\\UserSidebar.cshtml",
-              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\Shared\\UserSidebar.cshtml",
-              "RelativeToolTip": "Pages\\Shared\\UserSidebar.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABUAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-10T11:59:32.155Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AdminSidebar.cshtml",
-              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\Shared\\AdminSidebar.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Shared\\AdminSidebar.cshtml",
-              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\Shared\\AdminSidebar.cshtml",
-              "RelativeToolTip": "Pages\\Shared\\AdminSidebar.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-10T10:29:44.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Login.cshtml.cs",
@@ -243,19 +340,202 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Grid.css",
-              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\wwwroot\\css\\Grid.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\Grid.css",
-              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\wwwroot\\css\\Grid.css",
-              "RelativeToolTip": "wwwroot\\css\\Grid.css",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-10T15:59:19.582Z"
+              "DocumentIndex": 15,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Login.cshtml",
+              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\Login.cshtml",
+              "RelativeToolTip": "Pages\\Login.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T11:25:49.252Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAD0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T09:32:47.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EditFlight.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\EditFlight.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\EditFlight.cshtml.cs",
+              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\EditFlight.cshtml.cs",
+              "RelativeToolTip": "Pages\\EditFlight.cshtml.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAA/wCUAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T07:41:15.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EditFlight.cshtml",
+              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\EditFlight.cshtml",
+              "RelativeDocumentMoniker": "Pages\\EditFlight.cshtml",
+              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\EditFlight.cshtml",
+              "RelativeToolTip": "Pages\\EditFlight.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T07:41:06.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CancelFlight.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\CancelFlight.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\CancelFlight.cshtml.cs",
+              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\CancelFlight.cshtml.cs",
+              "RelativeToolTip": "Pages\\CancelFlight.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T11:00:23.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CancelFlight.cshtml",
+              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\CancelFlight.cshtml",
+              "RelativeDocumentMoniker": "Pages\\CancelFlight.cshtml",
+              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\CancelFlight.cshtml",
+              "RelativeToolTip": "Pages\\CancelFlight.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-11T11:00:13.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BookFlight.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\BookFlight.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\BookFlight.cshtml.cs",
+              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\BookFlight.cshtml.cs",
+              "RelativeToolTip": "Pages\\BookFlight.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAcwA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T16:24:28.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AddFlight.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\AddFlight.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\AddFlight.cshtml.cs",
+              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\AddFlight.cshtml.cs",
+              "RelativeToolTip": "Pages\\AddFlight.cshtml.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T06:44:58.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AddFlight.cshtml",
+              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\AddFlight.cshtml",
+              "RelativeDocumentMoniker": "Pages\\AddFlight.cshtml",
+              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\AddFlight.cshtml",
+              "RelativeToolTip": "Pages\\AddFlight.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAuwBkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-10T10:38:21.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-11T09:03:52.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-11T09:03:49.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserSidebar.cshtml",
+              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\Shared\\UserSidebar.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\UserSidebar.cshtml",
+              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\Shared\\UserSidebar.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\UserSidebar.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-10T11:59:32.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BookFlight.cshtml",
+              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\BookFlight.cshtml",
+              "RelativeDocumentMoniker": "Pages\\BookFlight.cshtml",
+              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\BookFlight.cshtml",
+              "RelativeToolTip": "Pages\\BookFlight.cshtml",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAuwEoAAACNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-10T12:06:25.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T09:12:49.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ObjectHandler.cs",
+              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\ObjectHandler.cs",
+              "RelativeDocumentMoniker": "ObjectHandler.cs",
+              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\ObjectHandler.cs",
+              "RelativeToolTip": "ObjectHandler.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAuwEMAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T13:24:44.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -267,151 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ViewReservedFlights.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\ViewReservedFlights.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\ViewReservedFlights.cshtml.cs",
-              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\ViewReservedFlights.cshtml.cs",
-              "RelativeToolTip": "Pages\\ViewReservedFlights.cshtml.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T12:44:42.863Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BookFlight.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\BookFlight.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\BookFlight.cshtml.cs",
-              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\BookFlight.cshtml.cs",
-              "RelativeToolTip": "Pages\\BookFlight.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAcwA8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T16:24:28.066Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ViewReservedFlights.cshtml",
-              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\ViewReservedFlights.cshtml",
-              "RelativeDocumentMoniker": "Pages\\ViewReservedFlights.cshtml",
-              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\ViewReservedFlights.cshtml",
-              "RelativeToolTip": "Pages\\ViewReservedFlights.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADYAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-11T12:44:23.025Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CancelFlight.cshtml",
-              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\CancelFlight.cshtml",
-              "RelativeDocumentMoniker": "Pages\\CancelFlight.cshtml",
-              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\CancelFlight.cshtml",
-              "RelativeToolTip": "Pages\\CancelFlight.cshtml",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFAAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-11T11:00:13.072Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "BookFlight.css",
-              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\wwwroot\\css\\BookFlight.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\BookFlight.css",
-              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\wwwroot\\css\\BookFlight.css",
-              "RelativeToolTip": "wwwroot\\css\\BookFlight.css",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAEIAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-10T13:34:02.992Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\Index.cshtml",
-              "RelativeToolTip": "Pages\\Index.cshtml",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAD0AAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T09:32:47.896Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AddFlight.cshtml",
-              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\AddFlight.cshtml",
-              "RelativeDocumentMoniker": "Pages\\AddFlight.cshtml",
-              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\AddFlight.cshtml",
-              "RelativeToolTip": "Pages\\AddFlight.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-10T10:38:21.388Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Pages\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\_ViewStart.cshtml",
-              "RelativeToolTip": "Pages\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-11T09:03:52.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Pages\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\_ViewImports.cshtml",
-              "RelativeToolTip": "Pages\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-11T09:03:49.121Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T09:12:49.294Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "sidebar.css",
-              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\wwwroot\\css\\sidebar.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\sidebar.css",
-              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\wwwroot\\css\\sidebar.css",
-              "RelativeToolTip": "wwwroot\\css\\sidebar.css",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAAAEEAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-10T10:11:37.149Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-07T10:53:20.569Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "UserSidebar.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\Shared\\UserSidebar.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Shared\\UserSidebar.cshtml.cs",
@@ -423,7 +559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 32,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\T L S\\Documents\\GitHub\\Semester-Projects\\ASP.NET Project\\Skylines Website\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
