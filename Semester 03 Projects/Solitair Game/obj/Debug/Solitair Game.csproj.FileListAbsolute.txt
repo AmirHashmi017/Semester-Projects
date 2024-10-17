@@ -1,0 +1,10 @@
+D:\Semester 03\DSA Lab\Solitair Game\bin\Debug\Solitair Game.exe.config
+D:\Semester 03\DSA Lab\Solitair Game\bin\Debug\Solitair Game.exe
+D:\Semester 03\DSA Lab\Solitair Game\bin\Debug\Solitair Game.pdb
+D:\Semester 03\DSA Lab\Solitair Game\obj\Debug\Solitair Game.csproj.AssemblyReference.cache
+D:\Semester 03\DSA Lab\Solitair Game\obj\Debug\Solitair_Game.Form1.resources
+D:\Semester 03\DSA Lab\Solitair Game\obj\Debug\Solitair_Game.Properties.Resources.resources
+D:\Semester 03\DSA Lab\Solitair Game\obj\Debug\Solitair Game.csproj.GenerateResource.cache
+D:\Semester 03\DSA Lab\Solitair Game\obj\Debug\Solitair Game.csproj.CoreCompileInputs.cache
+D:\Semester 03\DSA Lab\Solitair Game\obj\Debug\Solitair Game.exe
+D:\Semester 03\DSA Lab\Solitair Game\obj\Debug\Solitair Game.pdb
