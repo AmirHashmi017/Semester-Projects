@@ -10,6 +10,6 @@ namespace Solitair_Game
     {
         public static int CardWidth = 90;
         public static int CardHeight = 130;
-        public static string CardsImagePath = "D:\\Semester 03\\DSA Lab\\Solitair Game\\Assests\\CardsImages\\";
+        public static string CardsImagePath = "D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\Assests\\CardsImages\\";
     }
 }

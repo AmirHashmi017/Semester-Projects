@@ -1,37 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Semester 03\\DSA Lab\\Solitair Game\\",
+  "WorkspaceRootPath": "D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|d:\\semester 03\\dsa lab\\solitair game\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|D:\\Semester 03\\DSA Lab\\Solitair Game\\utilities\\cardspecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|solutionrelative:utilities\\cardspecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|D:\\Semester 03\\DSA Lab\\Solitair Game\\bl\\initializegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|solutionrelative:bl\\initializegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|D:\\Semester 03\\DSA Lab\\Solitair Game\\bl\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|solutionrelative:bl\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|D:\\Semester 03\\DSA Lab\\Solitair Game\\bl\\stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\bl\\stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|solutionrelative:bl\\stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|D:\\Semester 03\\DSA Lab\\Solitair Game\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\bl\\gameanmovesevaluation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|solutionrelative:bl\\gameanmovesevaluation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|D:\\Semester 03\\DSA Lab\\Solitair Game\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\bl\\initializegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|solutionrelative:bl\\initializegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|d:\\semester 03\\dsa lab\\csc200m24pid11\\solitair game\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|D:\\Semester 03\\DSA Lab\\Solitair Game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\bl\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|solutionrelative:bl\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\utilities\\cardspecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|solutionrelative:utilities\\cardspecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC1D7784-ACBA-4107-91E6-49D2BE957DE1}|Solitair Game.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,104 +46,118 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InitializeGame.cs",
-              "DocumentMoniker": "D:\\Semester 03\\DSA Lab\\Solitair Game\\BL\\InitializeGame.cs",
-              "RelativeDocumentMoniker": "BL\\InitializeGame.cs",
-              "ToolTip": "D:\\Semester 03\\DSA Lab\\Solitair Game\\BL\\InitializeGame.cs",
-              "RelativeToolTip": "BL\\InitializeGame.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwC8AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T16:27:43.462Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CardSpecifications.cs",
-              "DocumentMoniker": "D:\\Semester 03\\DSA Lab\\Solitair Game\\Utilities\\CardSpecifications.cs",
-              "RelativeDocumentMoniker": "Utilities\\CardSpecifications.cs",
-              "ToolTip": "D:\\Semester 03\\DSA Lab\\Solitair Game\\Utilities\\CardSpecifications.cs",
-              "RelativeToolTip": "Utilities\\CardSpecifications.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Title": "GameAnMovesEvaluation.cs",
+              "DocumentMoniker": "D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\BL\\GameAnMovesEvaluation.cs",
+              "RelativeDocumentMoniker": "BL\\GameAnMovesEvaluation.cs",
+              "ToolTip": "D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\BL\\GameAnMovesEvaluation.cs",
+              "RelativeToolTip": "BL\\GameAnMovesEvaluation.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAB5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T15:37:57.797Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Stack.cs",
-              "DocumentMoniker": "D:\\Semester 03\\DSA Lab\\Solitair Game\\BL\\Stack.cs",
-              "RelativeDocumentMoniker": "BL\\Stack.cs",
-              "ToolTip": "D:\\Semester 03\\DSA Lab\\Solitair Game\\BL\\Stack.cs",
-              "RelativeToolTip": "BL\\Stack.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAIwDgAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T15:28:32.845Z"
+              "WhenOpened": "2024-10-18T17:02:19.119Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Card.cs",
-              "DocumentMoniker": "D:\\Semester 03\\DSA Lab\\Solitair Game\\BL\\Card.cs",
-              "RelativeDocumentMoniker": "BL\\Card.cs",
-              "ToolTip": "D:\\Semester 03\\DSA Lab\\Solitair Game\\BL\\Card.cs",
-              "RelativeToolTip": "BL\\Card.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T15:27:51.696Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\Semester 03\\DSA Lab\\Solitair Game\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\Semester 03\\DSA Lab\\Solitair Game\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T15:24:26.592Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\Semester 03\\DSA Lab\\Solitair Game\\Form1.cs",
+              "DocumentMoniker": "D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\Semester 03\\DSA Lab\\Solitair Game\\Form1.cs",
+              "ToolTip": "D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAkwEUAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T15:24:48.005Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Semester 03\\DSA Lab\\Solitair Game\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Semester 03\\DSA Lab\\Solitair Game\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAQwBIAAAApAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "InitializeGame.cs",
+              "DocumentMoniker": "D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\BL\\InitializeGame.cs",
+              "RelativeDocumentMoniker": "BL\\InitializeGame.cs",
+              "ToolTip": "D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\BL\\InitializeGame.cs",
+              "RelativeToolTip": "BL\\InitializeGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T17:03:45.206Z"
+              "WhenOpened": "2024-10-17T16:27:43.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Stack.cs",
+              "DocumentMoniker": "D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\BL\\Stack.cs",
+              "RelativeDocumentMoniker": "BL\\Stack.cs",
+              "ToolTip": "D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\BL\\Stack.cs",
+              "RelativeToolTip": "BL\\Stack.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowD8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T15:28:32.845Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Card.cs",
+              "DocumentMoniker": "D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\BL\\Card.cs",
+              "RelativeDocumentMoniker": "BL\\Card.cs",
+              "ToolTip": "D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\BL\\Card.cs",
+              "RelativeToolTip": "BL\\Card.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T15:27:51.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T15:24:26.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "D:\\Semester 03\\DSA Lab\\Solitair Game\\Form1.Designer.cs",
+              "DocumentMoniker": "D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
-              "ToolTip": "D:\\Semester 03\\DSA Lab\\Solitair Game\\Form1.Designer.cs",
+              "ToolTip": "D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\Form1.Designer.cs",
               "RelativeToolTip": "Form1.Designer.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T15:24:54.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CardSpecifications.cs",
+              "DocumentMoniker": "D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\Utilities\\CardSpecifications.cs",
+              "RelativeDocumentMoniker": "Utilities\\CardSpecifications.cs",
+              "ToolTip": "D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\Utilities\\CardSpecifications.cs",
+              "RelativeToolTip": "Utilities\\CardSpecifications.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T15:37:57.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwBIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T17:03:45.206Z"
             }
           ]
         }

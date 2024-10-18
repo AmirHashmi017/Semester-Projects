@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BL\Card.cs" />
+    <Compile Include="BL\GameAnMovesEvaluation.cs" />
     <Compile Include="BL\InitializeGame.cs" />
     <Compile Include="Utilities\CardSpecifications.cs" />
     <Compile Include="Form1.cs">
