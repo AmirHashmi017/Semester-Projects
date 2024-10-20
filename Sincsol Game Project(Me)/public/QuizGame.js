@@ -5,6 +5,7 @@ if(level==1)
     difficultylevel="easy";
 else if(level==2||level==3)
     difficultylevel="medium";
+var IsWrong=false;
 fetch('/api/quiz')
     .then(response => response.json())
     .then(questions => {
@@ -44,13 +45,14 @@ fetch('/api/quiz')
                         score++;
                     } else {
                         option.style.backgroundColor = "#F84434";
+                        IsWrong=true;
                     }
 
                     document.querySelector('.score').textContent = `${score}/${totalQuestions}`;
 
                     setTimeout(() => {
                         currentQuestionIndex++;
-                        if (currentQuestionIndex < totalQuestions) {
+                        if (currentQuestionIndex < totalQuestions&&(!IsWrong)) {
                             loadQuestion(currentQuestionIndex);
                         } else {
                             window.location.href = `QuizResultPage.html?score=${score}&totalQuestions=${totalQuestions}`;
