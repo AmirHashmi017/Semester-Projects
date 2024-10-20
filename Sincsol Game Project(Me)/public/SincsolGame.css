@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body {
+    margin: 0;
+}
+
+.MainImage {
+    width: 100vw;
+    height: 94vh;
+    display: block;
+    filter: brightness(1.1);
+    position: relative;
+}
+
+.woodenblockcontainer {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30vw;
+    height: 30vw;
+}
+
+.woodenblockimage {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.centered-texttitle {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFA800;
+    font-size: 40px;
+    font-family: 'Hanalei Fill', cursive;
+    text-align: center;
+    line-height: 1.2;
+}
+.playbutton
+{
+    cursor: pointer;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20vw;
+    height: 12vh;
+}
+.playbuttonimage
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.centered-textplay {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFA800;
+    -webkit-text-stroke: 2px black;
+    font-size: 40px;
+    font-family: 'Hanalei Fill', cursive;
+    text-align: center;
+    line-height: 1.2;
+    display: inline;
+    white-space: nowrap;
+}
+
+

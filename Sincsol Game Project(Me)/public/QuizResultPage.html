@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Board</title>
+    <link rel="stylesheet" href="QuizResultPage.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    .remarks {
+    position: absolute;
+    top: 11%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFA800;
+    font-size: 45px;
+    font-family: 'Hanalei Fill', cursive; 
+    text-align: center;
+    line-height: 30.5px; 
+}
+
+    </style>
+</head>
+<body>
+    <div class="HomePage">
+        <img class="MainImage" src="Assets/Question Background.png" alt="Background Image"/>
+        <div class="woodenblockcontainer">
+            <img class="woodenblockimage" src="Assets/ResultBoard.png"/>
+            
+        
+            <div class="remarks">Great</div>
+            <div class="score">Score: 0 / 5</div>
+            <button id="btn1" class="button" onclick="resume()"></button>
+        </div>
+        
+    </div>
+    <div id="footer-placeholder"></div>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const score = urlParams.get('score');
+        const total=urlParams.get('totalQuestions');
+        document.querySelector(".score").innerText = `Score: ${score}/${total}`;
+        
+        if(score>total/2)
+        {
+             document.querySelector(".remarks").innerText='Great'
+        }
+        else{
+            document.querySelector(".remarks").innerText='Lose'
+        }
+        function resume() {
+            
+
+            const targetUrl = `LevelSelectionPage.html`;
+
+            window.location.href = targetUrl;
+        }
+
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+    </script>
+</body>
+</html>

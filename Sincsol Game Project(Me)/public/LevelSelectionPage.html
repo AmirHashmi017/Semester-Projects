@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level Selection</title>
+    <link rel="stylesheet" href="LevelSelection.css">
+</head>
+<body>
+    <div class="HomePage">
+        <img class="MainImage" src="Assets/Main Page(Background).png" alt="Background Image"/>
+        
+        <div class="woodenblockcontainer">
+            <img class="woodenblockimage" src="Assets/Level Selection Board.png"/>
+            <button id="btn1" class="button" onclick="selectLevel(1)"></button>
+            <button id="btn2" class="button" onclick="selectLevel(2)"></button>
+            <button id="btn3" class="button" onclick="selectLevel(3)"></button>
+            <button id="btn4" class="button" onclick="selectLevel(1)"></button>
+        </div>
+        
+    </div>
+    <div id="footer-placeholder"></div>
+
+    <script>
+        function selectLevel(level) {
+            
+            const queryParams = `?level=${level}`;
+
+            const targetUrl = `LevelBoard.html${queryParams}`;
+
+            window.location.href = targetUrl;
+        }
+
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+    </script>
+</body>
+</html>

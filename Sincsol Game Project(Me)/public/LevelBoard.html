@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Level</title>
+    <link rel="stylesheet" href="LevelBoard.css">
+</head>
+<body>
+    <div class="HomePage">
+        <img class="MainImage" src="Assets/Level Start Background.png" alt="Background Image"/>
+        
+        <div class="woodenblockcontainer">
+            <img class="woodenblockimage" src="Assets/Level1Frame.png" alt="Level Frame"/>
+        </div>
+        
+    </div>
+    <div id="footer-placeholder"></div>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const level = urlParams.get('level');
+
+        if (level) {
+            const imageSrc = `Assets/Level${level}Frame.png`;
+            document.querySelector('.woodenblockimage').src = imageSrc;
+        } else {
+            console.error('Level parameter is missing or invalid.');
+        }
+
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+
+        setTimeout(function() {
+            const quizPageUrl = `QuizGame.html?level=${level}`;
+            window.location.href = quizPageUrl;
+        }, 2000);
+    </script>
+</body>
+</html>

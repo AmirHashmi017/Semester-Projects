@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="QuizGame.css">
+</head>
+<body>
+    <div class="HomePage">
+        <img class="MainImage" src="Assets/Question Background.png" alt="Background Image"/>
+        <div class="scorecard">
+        <img class="scorecardimage" src="Assets/QuizScore.png"/>
+        <p class="score">0/3</p>
+    </div>
+        <div class="woodenblockcontainer">
+            <img class="woodenblockimage" src="Assets/QuestionsBoard.png" alt="Level Frame"/>
+            <div id="question">
+                Loading question...
+            </div>
+            <div id="QuestionImage">
+                <img id="quizImage" src="" alt="Question Image"/>
+            </div>
+            <div class="buttoncontainer">
+                <div id="option1" class="button"><p>A) </p></div>
+                <div id="option2" class="button"><p>B) </p></div>
+                <div id="option3" class="button"><p>C) </p></div>
+                <div id="option4" class="button"><p>D) </p></div>
+            </div>
+        </div>
+        
+    </div>
+    <div id="footer-placeholder"></div>
+<script src="QuizGame.js"></script>
+    <script>
+    fetch('Footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+
+    
+    </script>
+</body>
+</html>

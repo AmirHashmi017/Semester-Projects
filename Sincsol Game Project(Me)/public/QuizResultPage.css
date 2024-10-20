@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'GillSansMT';
+    src: url('fonts/Gill Sans MT Ext Condensed Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+    margin: 0;
+}
+
+.MainImage {
+    width: 100vw;
+    height: 94vh;
+    display: block;
+    filter: brightness(1.1);
+    position: relative;
+}
+
+.woodenblockcontainer {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30vw;
+    height: 70vh;
+}
+
+.woodenblockimage {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.button {
+    position: absolute;
+    width: 12.5vw;
+    height: 8.3vh;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#btn1 {
+    top: 75.5%;
+    left: 30%;
+}
+
+.score {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 55px;
+    font-family: 'GillSansMT', sans-serif; 
+    text-align: center;
+    line-height: 30.5px;
+}
+

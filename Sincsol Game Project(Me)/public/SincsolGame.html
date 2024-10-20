@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Adventure Puzzle</title>
+    <link rel="stylesheet" href="SincsolGame.css">
+</head>
+<body>
+    <div class="HomePage">
+        <img class="MainImage" src="Assets/Main Page(Background).png" alt="Background Image"/>
+        
+        <div class="woodenblockcontainer">
+            <img class="woodenblockimage" src="Assets/MainPage(Wooden Block).png" alt="Wooden Block"/>
+            <div class="centered-texttitle">
+                <span class="first-line">Animal Adventure</span>
+                <span class="second-line">Puzzle</span>
+            </div>
+        </div>
+        <div class="playbutton" onclick="navigateToNextPage()">
+        <img class="playbuttonimage" src="Assets/Play Button.png" />
+        <div class="centered-textplay">Play Now</div>
+    </div>
+    </div>
+    <div id="footer-placeholder"></div>
+
+    <script>
+        function navigateToNextPage() {
+            window.location.href = 'LevelSelectionPage.html'; 
+        }
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+    </script>
+</body>
+</html>
