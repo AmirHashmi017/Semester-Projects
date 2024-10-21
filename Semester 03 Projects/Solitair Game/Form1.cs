@@ -24,6 +24,7 @@ namespace Solitair_Game
         public Form1()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -155,9 +156,12 @@ namespace Solitair_Game
                     if (count == 0)
                     {
                         card.IsFaceUp = true;
+                        
+                    }
+                    if (card.IsFaceUp)
+                    {
                         tableauCardPictureBox.Click += new EventHandler(Card_Click);
                     }
-
                     tableauCardPictureBox.Image = Image.FromFile(card.IsFaceUp ? card.CardImg : card.BackImg);
                     tableauCardPictureBox.Tag = new Tuple<Stack, Card>(tableau, card);
                     this.Controls.Add(tableauCardPictureBox);
@@ -187,8 +191,20 @@ namespace Solitair_Game
                 selectedCardPictureBox2= clickedCardPictureBox;
                 if (IsValidMove(selectedCard, clickedCard, sourcePile, clickedPile))
                 {
-                    Card movedCard = sourcePile.Pop();
-                    clickedPile.Push(movedCard);
+                    Node topcardnode = sourcePile.head;
+                    List<Card>CardstoShift=new List<Card>();
+                    while (topcardnode.CurrentCard!=selectedCard)
+                    {
+                        Card cardtomove = sourcePile.Pop();
+                        CardstoShift.Add(cardtomove);
+                        topcardnode=topcardnode.Next;
+                    }
+                    Card cardselected = sourcePile.Pop();
+                    CardstoShift.Add(cardselected);
+                    for(int i=CardstoShift.Count-1; i>=0; i--)
+                    {
+                        clickedPile.Push(CardstoShift[i]);
+                    }
 
 
                     UpdatePilesAfterMove();
