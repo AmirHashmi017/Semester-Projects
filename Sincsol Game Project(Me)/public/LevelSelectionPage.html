@@ -5,17 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Level Selection</title>
     <link rel="stylesheet" href="LevelSelection.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 <body>
     <div class="HomePage">
-        <img class="MainImage" src="Assets/Main Page(Background).png" alt="Background Image"/>
         
+        <img class="MainImage" src="Assets/Main Page(Background).png" alt="Background Image"/>
+    
         <div class="woodenblockcontainer">
-            <img class="woodenblockimage" src="Assets/Level Selection Board.png"/>
+            <div class="style-container animate__animated animate__bounceInDown animate__slow">
+            <img class="woodenblockimage " src="Assets/Level Selection Board.png"/>
+        
             <button id="btn1" class="button" onclick="selectLevel(1)"></button>
             <button id="btn2" class="button" onclick="selectLevel(2)"></button>
             <button id="btn3" class="button" onclick="selectLevel(3)"></button>
             <button id="btn4" class="button" onclick="selectLevel(1)"></button>
+        </div>
         </div>
         
     </div>

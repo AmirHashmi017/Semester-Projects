@@ -15,8 +15,8 @@ body {
 
 .woodenblockcontainer {
     position: absolute;
-    top: 45%;
-    left: 50%;
+    top: 45% !important;
+    left: 50% !important;
     transform: translate(-50%, -50%);
     width: 30vw;
     height: 70vh;
@@ -55,6 +55,14 @@ body {
     top: 78.5%;
     left: 25%;
 }
+.animate__animated {
 
+    transform-origin: center;
+}
 
+.style-container, .style-container2, .style-container3 {
 
+    width: 100%;
+    height: 100%;
+    position: relative;
+}

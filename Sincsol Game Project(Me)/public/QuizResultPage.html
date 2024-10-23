@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Score Board</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="QuizResultPage.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
@@ -21,17 +22,28 @@
 }
 
     </style>
+
 </head>
 <body>
     <div class="HomePage">
         <img class="MainImage" src="Assets/Question Background.png" alt="Background Image"/>
         <div class="woodenblockcontainer">
+            <div class="style-container animate__animated animate__bounceInDown animate__slow">
             <img class="woodenblockimage" src="Assets/ResultBoard.png"/>
-            
+            <div class="star1">
+                <img src="Assets/star1.png"/>
+            </div>
+            <div class="star2">
+                <img src="Assets/star2.png"/>
+            </div>
+            <div class="star3">
+                <img src="Assets/star3.png"/>
+            </div>
         
             <div class="remarks">Great</div>
             <div class="score">Score: 0 / 5</div>
             <button id="btn1" class="button" onclick="resume()"></button>
+        </div>
         </div>
         
     </div>
@@ -42,13 +54,25 @@
         const score = urlParams.get('score');
         const total=urlParams.get('totalQuestions');
         document.querySelector(".score").innerText = `Score: ${score}/${total}`;
-        
-        if(score>total/2)
+        if(score==total)
+        {
+        document.querySelector(".remarks").innerText='Great'
+        document.querySelector(".star1").style.visibility = "visible";
+        document.querySelector(".star2").style.visibility = "visible";
+        document.querySelector(".star3").style.visibility = "visible";
+        }
+        else if(score>total/2)
         {
              document.querySelector(".remarks").innerText='Great'
+             document.querySelector(".star1").style.visibility = "visible";
+             document.querySelector(".star2").style.visibility = "visible";
         }
         else{
             document.querySelector(".remarks").innerText='Lose'
+            if(score>1)
+            {
+            document.querySelector(".star1").style.visibility = "visible";
+            }
         }
         function resume() {
             

@@ -60,4 +60,48 @@ body {
     text-align: center;
     line-height: 30.5px;
 }
-
+.star1
+{
+    width:4vw;
+    height:4vw;
+    position: absolute;
+    visibility: hidden;
+    top: 32%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+}
+.star2
+{
+    width:4.5vw;
+    height:4.5vw;
+    position: absolute;
+    top: 28%;
+    left: 49.5%;
+    visibility: hidden;
+    transform: translate(-50%, -50%);
+}
+.star3
+{
+    width:4vw;
+    height:4vw;
+    position: absolute;
+    visibility: hidden;
+    top: 32%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+}
+.star1 img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.star2 img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.star3 img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}

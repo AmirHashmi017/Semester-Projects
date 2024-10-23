@@ -16,25 +16,31 @@
         <img class="MainImage" src="Assets/Main Page(Background).png" alt="Background Image" />
 
         <div class="woodenblockcontainer">
-            <img class="woodenblockimage" src="Assets/MainPage(Wooden Block).png" alt="Wooden Block" />
+            <div class="style-container animate__animated animate__bounceInDown animate__slow">
+                <img class="woodenblockimage" src="Assets/MainPage(Wooden Block).png" alt="Wooden Block" />
+            </div>
             <div class="centered-texttitle">
-                <div class="style-container animate__animated animate__bounceInDown">
+                <div class="style-container2 animate__animated animate__bounceInDown animate__delay-1s animate__slow">
                     <span class="first-line ">Animal Adventure</span>
                     <span class="second-line">Puzzle</span>
                 </div>
             </div>
         </div>
+        
         <div class="playbutton" onclick="navigateToNextPage()">
+            <div class="style-container2 animate__animated animate__fadeIn animate__delay-3s" id="playButtonContainer">
             <img class="playbuttonimage" src="Assets/Play Button.png" />
             <div class="centered-textplay">Play Now</div>
         </div>
+        </div>
+    
     </div>
     <div id="footer-placeholder"></div>
 
     <script>
-        function navigateToNextPage() {
-            window.location.href = 'LevelSelectionPage.html';
-        }
+    function navigateToNextPage() {
+        window.location.href = 'LevelSelectionPage.html';
+    }
         fetch('footer.html')
             .then(response => response.text())
             .then(data => {
