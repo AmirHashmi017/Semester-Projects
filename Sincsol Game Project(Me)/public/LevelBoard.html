@@ -40,7 +40,15 @@
             });
 
         setTimeout(function() {
-            const quizPageUrl = `QuizGame.html?level=${level}`;
+        let quizPageUrl;
+        if(level==1)
+        {
+            quizPageUrl = `Puzzle Game.html`;
+        }
+        else
+        {
+            quizPageUrl = `QuizGame.html?level=${level}`;
+        }
             window.location.href = quizPageUrl;
         }, 2000);
     </script>

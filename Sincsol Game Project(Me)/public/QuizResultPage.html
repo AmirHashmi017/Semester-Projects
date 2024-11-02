@@ -9,6 +9,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+        
     .remarks {
     position: absolute;
     top: 11%;
@@ -29,19 +30,17 @@
         <img class="MainImage" src="Assets/Question Background.png" alt="Background Image"/>
         <div class="woodenblockcontainer">
             <div class="style-container animate__animated animate__bounceInDown animate__slow">
-            <img class="woodenblockimage" src="Assets/ResultBoard.png"/>
-            <div class="star1">
-                <img src="Assets/star1.png"/>
-            </div>
-            <div class="star2">
-                <img src="Assets/star2.png"/>
-            </div>
-            <div class="star3">
-                <img src="Assets/star3.png"/>
-            </div>
-        
-            <div class="remarks">Great</div>
+            <img class="woodenblockimage" src="Assets/result wooden container.png"/>
+            <img class="personlogo" src="Assets/resultperson.png"/>
+            <img class="star1" src="Assets/star2.png"/>
+            <img class="star2" src="Assets/star2.png"/>
+            <img class="star3" src="Assets/star2.png"/>
+            <div class="remarks">Score</div>
+            <div class="scorecontainer">
+            <img class="scorecontainer" src="Assets/scorecontainer.png"/>
+            
             <div class="score">Score: 0 / 5</div>
+        </div>
             <button id="btn1" class="button" onclick="resume()"></button>
         </div>
         </div>
@@ -56,19 +55,19 @@
         document.querySelector(".score").innerText = `Score: ${score}/${total}`;
         if(score==total)
         {
-        document.querySelector(".remarks").innerText='Great'
+       
         document.querySelector(".star1").style.visibility = "visible";
         document.querySelector(".star2").style.visibility = "visible";
         document.querySelector(".star3").style.visibility = "visible";
         }
         else if(score>total/2)
         {
-             document.querySelector(".remarks").innerText='Great'
+            
              document.querySelector(".star1").style.visibility = "visible";
              document.querySelector(".star2").style.visibility = "visible";
         }
         else{
-            document.querySelector(".remarks").innerText='Lose'
+            
             if(score>1)
             {
             document.querySelector(".star1").style.visibility = "visible";

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="Puzzle Game.css">
+</head>
+<body>
+    <div class="HomePage">
+        <img class="MainImage" src="Assets/Question Background.png" alt="Background Image"/>
+        <div class="scorecard">
+        <img class="scorecardimage" src="Assets/QuizScore.png"/>
+        <p class="score">0/25</p>
+    </div>
+        <div class="woodenblockcontainer">
+            <div class="style-container animate__animated animate__fadeIn animate__slow">
+            <img class="woodenblockimage" src="Assets/Puzzle Container.png" alt="Level Frame"/>
+            <div class="wronganswer">
+            <img class="wronganswerimage" src="Assets/WrongPuzzle.png"/>
+            <button class="retrybutton"></button>
+            </div>
+            <div class="puzzle-grid">
+
+            </div>
+        </div>
+            <div class="puzzleprompt">
+                <img src="Assets/Puzzle Prompt.png" alt="Puzzle Image" class="puzzleimage"/>
+                <form id="guessForm" onsubmit="checkGuess(event)">
+                    <input type="text" id="puzzleguess" required autocomplete="off">
+                    <button type="submit"></button>
+                </form>
+            </div>
+            
+            <img class="message" src="Assets/keboard input.png"/>
+            </div>
+        </div>
+        
+    </div>
+    <div id="footer-placeholder"></div>
+    <script src="Puzzle Game.js"></script>
+    <script>
+    fetch('Footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+
+    
+    </script>
+</body>
+</html>
