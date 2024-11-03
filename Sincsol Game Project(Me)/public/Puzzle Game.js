@@ -30,8 +30,29 @@ function checkGuess(event) {
         
     }
     else{
+        let IsTopper=0;
         let ranking=0;
-        window.location.href = `PuzzleResultPage.html?score=${score}&ranking=${ranking}`;
+        let scorepercentage=((25-score)/25)*100;
+        fetch('/api/toppers')
+    .then(response => response.json())
+    .then(toppers => {
+        toppers.forEach(topper => {
+            console.log(topper.score);
+            if(scorepercentage>topper.score)
+            {
+                IsTopper=1;
+            }
+            if(IsTopper==0)
+                {
+                    window.location.href = `PuzzleResultPage.html?score=${score}&ranking=${ranking}`;
+                }
+                else{
+                    window.location.href = `TopScorer.html?score=${score}&ranking=${ranking}`;
+                }
+        });
+    })
+    .catch(error => console.error('Error fetching Puzzle data:', error));
+    
     }
 }
 

@@ -37,3 +37,25 @@ VALUES (
     'Cat',
     pg_read_binary_file('D:/Github Repos/Sincsol-Game-Project/Assets/CatImage.png')
 );
+
+CREATE TABLE Toppers (
+    id SERIAL PRIMARY KEY,
+    position INT NOT NULL UNIQUE,
+    scorername TEXT NOT NULL,
+    score FLOAT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+
+INSERT INTO Toppers (position , scorername,score)
+VALUES (
+    '3',
+ 	'Ahmad',
+	10.3
+);
+
+
+UPDATE toppers
+SET score = 15.43
+WHERE position=2;

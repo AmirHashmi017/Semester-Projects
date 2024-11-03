@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Scorer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="TopScorer.css">
+</head>
+<body>
+    <div class="HomePage">
+        <img class="MainImage" src="Assets/Main Page(Background).png" alt="Background Image"/>
+        <div class="woodenblockcontainer">
+            <div class="style-container animate__animated animate__fadeIn animate__slow">
+                <div class="puzzleprompt">
+                    <img src="Assets/Toppersform.png" alt="Puzzle Image" class="puzzleimage"/>
+                    <form id="guessForm" onsubmit="checkPosition(event)">
+                        <input type="text" id="puzzleguess" required autocomplete="off">
+                        <button type="submit"></button>
+                    </form>
+                </div>
+        </div>
+            
+            
+        </div>
+        
+    </div>
+    <div id="footer-placeholder"></div>
+    <script src="TopScorer.js"></script>
+    <script>
+    fetch('Footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+
+    
+    </script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 const urlParams = new URLSearchParams(window.location.search);
-        const level = urlParams.get('level');
+    const level = urlParams.get('level');
 var difficultylevel;
 if(level==2)
     difficultylevel="easy";
