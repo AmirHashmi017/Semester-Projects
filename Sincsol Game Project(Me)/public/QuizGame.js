@@ -1,15 +1,16 @@
 const urlParams = new URLSearchParams(window.location.search);
         const level = urlParams.get('level');
 var difficultylevel;
-if(level==1)
+if(level==2)
     difficultylevel="easy";
-else if(level==2||level==3)
+else if(level==3)
     difficultylevel="medium";
 var IsWrong=false;
 fetch('/api/quiz')
     .then(response => response.json())
     .then(questions => {
-        const filteredQuestions = questions.filter(question => question.difficulty_level == difficultylevel);
+        var filteredQuestions = questions.filter(question => question.difficulty_level == difficultylevel);
+        filteredQuestions=shuffleArray(filteredQuestions);
         let currentQuestionIndex = 0;
         let score = 0;
         const totalQuestions = filteredQuestions.length;
@@ -64,3 +65,11 @@ fetch('/api/quiz')
         loadQuestion(currentQuestionIndex);
     })
     .catch(error => console.error('Error fetching quiz data:', error));
+
+    function shuffleArray(array) {
+        for (let i =0; i<array.length; i++) {
+            let j = Math.floor(Math.random() * (array.length-1)); 
+            [array[i], array[j]] = [array[j], array[i]]; 
+        }
+        return array;
+    }

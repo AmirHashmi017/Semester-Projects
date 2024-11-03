@@ -31,6 +31,26 @@ app.get('/api/quiz', async (req, res) => {
     }
 });
 
+app.get('/api/puzzle', async (req, res) => {
+    try {
+        const result = await pool.query('SELECT * FROM puzzle');
+        const puzzleQuestion = result.rows;
+        puzzleQuestion.forEach(puzzle => {
+            if (puzzle.puzzle_image) {
+                const buffer = puzzle.puzzle_image;
+                const base64Image = buffer.toString('base64');
+                puzzle.puzzle_image = base64Image;
+            }
+        });
+        
+
+        res.json(puzzleQuestion);
+    } catch (error) {
+        console.error('Error fetching Puzzle data', error);
+        res.status(500).send('Server Error');
+    }
+});
+
 app.use(express.static('public'));
 
 app.listen(port, () => {

@@ -23,3 +23,17 @@ VALUES (
     'easy',
     pg_read_binary_file('D:/Github Repos/Sincsol-Game-Project/Assets/CatImage.png')
 );
+
+
+CREATE TABLE Puzzle (
+    id SERIAL PRIMARY KEY,
+    AnimalName TEXT NOT NULL,
+    puzzle_image BYTEA NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+INSERT INTO Puzzle (AnimalName, puzzle_image)
+VALUES (
+    'Cat',
+    pg_read_binary_file('D:/Github Repos/Sincsol-Game-Project/Assets/CatImage.png')
+);
