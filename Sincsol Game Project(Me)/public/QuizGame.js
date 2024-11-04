@@ -29,8 +29,14 @@ fetch('/api/quiz')
             if (data.question_image) {
                 const base64Image = `data:image/png;base64,${data.question_image}`;
                 document.getElementById('quizImage').src = base64Image;
+                quizImage.style.display = 'block'; 
+                document.querySelector('.buttoncontainer').style.top="77%";
+                document.querySelector('.buttoncontainer').style.rowGap = '1vw';
             } else {
                 document.getElementById('quizImage').src = ''; 
+                quizImage.style.display = 'none';
+                document.querySelector('.buttoncontainer').style.top="62%";
+                document.querySelector('.buttoncontainer').style.rowGap = '1.5vw';
             }
 
             let optionClicked = false;

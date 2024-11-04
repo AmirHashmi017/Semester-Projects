@@ -55,6 +55,9 @@ function checkGuess(event) {
     
     }
 }
+window.addEventListener("keydown", () => {
+    puzzleguess.focus();
+});
 
 document.querySelector(".retrybutton").addEventListener("click",()=>
 {

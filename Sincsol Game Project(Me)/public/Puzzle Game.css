@@ -114,8 +114,8 @@ body {
 .scorecard
 {
     position: absolute;
-    top: 17%;
-    left: 77%;
+    top: 13%;
+    left: 85%;
     transform: translate(-50%, -50%);
     width: 9vw;
     height: 12vh;
@@ -130,7 +130,7 @@ body {
 .puzzleprompt {
     position: absolute;
     top:25%;
-    left:108%;
+    left:124%;
     width: 25vw;
     height: 55vh;
     display: flex;

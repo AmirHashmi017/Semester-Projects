@@ -37,7 +37,7 @@ body {
     font-size: 33px;
     font-family: roboto;
     text-align: center;
-    line-height: 30.5px;
+    line-height: 33.5px;
 }
 
 #QuestionImage {
@@ -80,13 +80,13 @@ body {
     
     margin-bottom: 2vh; 
     font-weight: bold;
-    justify-content: center;
+    padding-left: 25px;
 }
 .scorecard
 {
     position: absolute;
-    top: 10%;
-    left: 76%;
+    top: 12%;
+    left: 90%;
     transform: translate(-50%, -50%);
     width: 9vw;
     height: 12vh;

@@ -14,12 +14,12 @@
     
         <div class="woodenblockcontainer">
             <div class="style-container animate__animated animate__bounceInDown animate__slow">
-            <img class="woodenblockimage " src="Assets/Level Selection.png"/>
+            <img class="woodenblockimage" src="Assets/Selection Board.png"/>
         
-            <button id="btn1" class="button" onclick="selectLevel(1)"></button>
-            <button id="btn2" class="button" onclick="selectLevel(2)"></button>
-            <button id="btn3" class="button" onclick="selectLevel(3)"></button>
-            <button id="btn4" class="button" onclick="selectLevel(1)"></button>
+            <button id="btn1" class="button" onclick="storeAndSelectLevel(1)"><img id="button1" src="Assets/LightSelectionButton.png"><span class="buttontext">Elementary</span></button>
+            <button id="btn2" class="button" onclick="storeAndSelectLevel(2)"><img id="button2" src="Assets/LightSelectionButton.png"><span class="buttontext">Secondary</span></button>
+            <button id="btn3" class="button" onclick="storeAndSelectLevel(3)"><img id="button3" src="Assets/LightSelectionButton.png"><span class="buttontext">Higher Secondary</span></button>
+            <button id="btn4" class="button" onclick="executeStoredLevel()"></button>
         </div>
         </div>
         
@@ -27,13 +27,40 @@
     <div id="footer-placeholder"></div>
 
     <script>
-        function selectLevel(level) {
-            
-            const queryParams = `?level=${level}`;
+        sessionStorage.removeItem('selectedLevel');
+        function storeAndSelectLevel(level) {
+            sessionStorage.setItem('selectedLevel', level);
+            console.log(level);
+        if(level==1)
+        {
+            const imageElement = document.querySelector('#button1');
+            imageElement.src = "Assets/DarkSelectionButton.png";
+            document.querySelector('#button2').src = "Assets/LightSelectionButton.png";
+            document.querySelector('#button3').src = "Assets/LightSelectionButton.png";
+        }
+        if(level==2)
+        {
+            const imageElement = document.querySelector('#button2');
+            imageElement.src = "Assets/DarkSelectionButton.png";
+            document.querySelector('#button1').src = "Assets/LightSelectionButton.png";
+            document.querySelector('#button3').src = "Assets/LightSelectionButton.png";
+        }
+        if(level==3)
+        {
+            const imageElement = document.querySelector('#button3');
+            imageElement.src = "Assets/DarkSelectionButton.png";
+            document.querySelector('#button1').src = "Assets/LightSelectionButton.png";
+            document.querySelector('#button2').src = "Assets/LightSelectionButton.png";
+        }
+        }
+        function executeStoredLevel() {
+            const storedLevel = sessionStorage.getItem('selectedLevel');
 
-            const targetUrl = `LevelBoard.html${queryParams}`;
-
-            window.location.href = targetUrl;
+            if (storedLevel) {
+                const queryParams = `?level=${storedLevel}`;
+                const targetUrl = `LevelBoard.html${queryParams}`;
+                window.location.href = targetUrl;
+            } 
         }
 
         fetch('footer.html')
