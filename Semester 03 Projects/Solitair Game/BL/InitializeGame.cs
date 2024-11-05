@@ -9,10 +9,18 @@ namespace Solitair_Game
     internal class InitializeGame
     {
         public static List<Card> Deck = new List<Card>();
-        public static Stack StockPile = new Stack();
+        public static Queue StockPile = new Queue();
         public static List<Stack>Tableaus=new List<Stack>();
+        public static Stack HeartsFoundation;
+        public static Stack DiamondsFoundation;
+        public static Stack ClubsFoundation;
+        public static Stack SpadesFoundation;
         public static void InitializeGameFunction()
         {
+            HeartsFoundation=new Stack();
+            ClubsFoundation=new Stack();
+            DiamondsFoundation=new Stack();
+            SpadesFoundation=new Stack();
             CreateDeck();
             ShuffleDeck();
             CreateTableausAndStockpile();
@@ -56,7 +64,7 @@ namespace Solitair_Game
             }
             for(int i=0;i<Deck.Count;i++)
             {
-                StockPile.Push(Deck[i]);
+                StockPile.Enqueue(Deck[i]);
             }
         }
     }

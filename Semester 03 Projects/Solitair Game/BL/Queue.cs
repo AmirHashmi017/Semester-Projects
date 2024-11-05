@@ -8,28 +8,27 @@ namespace Solitair_Game
 {
     public class Queue
     {
-        public Node head;
+        public Node Front;
+        public Node Rear;
         public Queue()
         {
-            head = null;
+            Front = null;
+            Rear= null;
         }
         public void Enqueue(Card newcard)
         {
             Node newNode = new Node();
             newNode.CurrentCard = newcard;
             newNode.Next = null;
-            if (head == null)
+            if (Front == null)
             {
-                head = newNode;
+                Front = newNode;
+                Rear= newNode;
             }
             else
             {
-                Node current = head;
-                while (current != null && current.Next != null)
-                {
-                    current = current.Next;
-                }
-                current.Next = newNode;
+                Rear.Next = newNode;
+                Rear = newNode;
             }
         }
         public Card Dequeue()
@@ -38,22 +37,26 @@ namespace Solitair_Game
             {
                 return null;
             }
-            Node next = head.Next;
-            Card CardToDelete = head.CurrentCard;
-            head = next;
+            Node next = Front.Next;
+            Card CardToDelete = Front.CurrentCard;
+            Front = next;
+            if (Front == null)
+            {
+                Rear = null;
+            }
             return CardToDelete;
         }
-        public Card Front()
+        public Card Peek()
         {
             if (IsEmpty())
             {
                 return null;
             }
-            return head.CurrentCard;
+            return Front.CurrentCard;
         }
         public bool IsEmpty()
         {
-            if (head == null)
+            if (Front == null)
             {
                 return true;
             }
@@ -62,7 +65,7 @@ namespace Solitair_Game
         public int GetTotalNumberOfCards()
         {
             int count = 0;
-            Node current = head;
+            Node current = Front;
             while (current != null)
             {
                 count++;

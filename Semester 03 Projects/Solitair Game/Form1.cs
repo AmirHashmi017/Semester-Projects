@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,10 +17,14 @@ namespace Solitair_Game
         public PictureBox stockPilePictureBox;
         public PictureBox wastePilePictureBox;
         public Stack wastePile = new Stack();
-        private PictureBox selectedCardPictureBox1;
-        private PictureBox selectedCardPictureBox2;
-        private Card selectedCard;
-        private Stack sourcePile;
+        public PictureBox selectedCardPictureBox1;
+        public PictureBox selectedCardPictureBox2;
+        public Card selectedCard;
+        public Stack sourcePile;
+        public PictureBox heartsFoundation;
+        public PictureBox diamondsFoundation;
+        public PictureBox spadesFoundation;
+        public PictureBox clubsFoundation;
 
         public Form1()
         {
@@ -34,6 +39,7 @@ namespace Solitair_Game
             InitializeGame.InitializeGameFunction();
             DisplayStockPile();
             DisplayTableaus();
+            DisplayFoundations();
         }
 
         private void DisplayStockPile()
@@ -52,7 +58,7 @@ namespace Solitair_Game
         {
             if (InitializeGame.StockPile.GetTotalNumberOfCards() > 0)
             {
-                Card drawnCard = InitializeGame.StockPile.Pop();
+                Card drawnCard = InitializeGame.StockPile.Dequeue();
                 drawnCard.IsFaceUp = true;
                 wastePile.Push(drawnCard);
 
@@ -74,7 +80,7 @@ namespace Solitair_Game
             {
                 Card card = wastePile.Pop();
                 card.IsFaceUp = false;
-                InitializeGame.StockPile.Push(card);
+                InitializeGame.StockPile.Enqueue(card);
             }
             UpdateStockPileDisplay();
         }
@@ -131,7 +137,7 @@ namespace Solitair_Game
                 int NumberOfCards = tableau.GetTotalNumberOfCards();
                 int y = startY + NumberOfCards * 38;
                 int count = 0;
-                Node currentNode = tableau.head;
+                Node currentNode = tableau.Top;
                 if(currentNode==null)
                 {
                     y = y + 38;
@@ -162,7 +168,14 @@ namespace Solitair_Game
                     {
                         tableauCardPictureBox.Click += new EventHandler(Card_Click);
                     }
-                    tableauCardPictureBox.Image = Image.FromFile(card.IsFaceUp ? card.CardImg : card.BackImg);
+                    if(card.IsFaceUp)
+                    {
+                        tableauCardPictureBox.Image = Image.FromFile(card.CardImg);
+                    }
+                    else
+                    {
+                        tableauCardPictureBox.Image = Image.FromFile(card.BackImg);
+                    }
                     tableauCardPictureBox.Tag = new Tuple<Stack, Card>(tableau, card);
                     this.Controls.Add(tableauCardPictureBox);
 
@@ -171,6 +184,95 @@ namespace Solitair_Game
                     currentNode = currentNode.Next;
                 }
             }
+        }
+        private void DisplayFoundations()
+        {
+            heartsFoundation= new PictureBox();
+            diamondsFoundation = new PictureBox();
+            spadesFoundation = new PictureBox();
+            clubsFoundation = new PictureBox();
+
+            heartsFoundation.Size = new Size(90, 130);
+            heartsFoundation.Location = new Point(450, 20); 
+            heartsFoundation.SizeMode = PictureBoxSizeMode.StretchImage;
+
+            diamondsFoundation.Size = new Size(90, 130);
+            diamondsFoundation.Location = new Point(570, 20);
+            diamondsFoundation.SizeMode = PictureBoxSizeMode.StretchImage;
+
+            spadesFoundation.Size = new Size(90, 130);
+            spadesFoundation.Location = new Point(690, 20);
+            spadesFoundation.SizeMode = PictureBoxSizeMode.StretchImage;
+
+            clubsFoundation.Size = new Size(90, 130);
+            clubsFoundation.Location = new Point(810, 20);
+            clubsFoundation.SizeMode = PictureBoxSizeMode.StretchImage;
+
+            heartsFoundation.Image = Image.FromFile("D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\Assests\\CardsImages\\Heart.png");
+            diamondsFoundation.Image = Image.FromFile("D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\Assests\\CardsImages\\Diamond.png");
+            spadesFoundation.Image = Image.FromFile("D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\Assests\\CardsImages\\Spade.png");
+            clubsFoundation.Image = Image.FromFile("D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\Assests\\CardsImages\\Club.png");
+
+
+            heartsFoundation.Tag = new Tuple<Stack, string>(InitializeGame.HeartsFoundation, "hearts");
+            diamondsFoundation.Tag = new Tuple<Stack, string>(InitializeGame.DiamondsFoundation, "diamonds");
+            spadesFoundation.Tag = new Tuple<Stack, string>(InitializeGame.SpadesFoundation, "spades");
+            clubsFoundation.Tag = new Tuple<Stack, string>(InitializeGame.ClubsFoundation, "clubs");
+            heartsFoundation.Click += new EventHandler(FoundationCard_Click);
+            diamondsFoundation.Click += new EventHandler(FoundationCard_Click);
+            spadesFoundation.Click += new EventHandler(FoundationCard_Click);
+            clubsFoundation.Click += new EventHandler(FoundationCard_Click);
+            this.Controls.Add(heartsFoundation);
+            this.Controls.Add(diamondsFoundation);
+            this.Controls.Add(spadesFoundation);
+            this.Controls.Add(clubsFoundation);
+
+           
+        }
+        private void UpdateFoundationDisplay()
+        {
+            if(!InitializeGame.HeartsFoundation.IsEmpty())
+            {
+                Card card = InitializeGame.HeartsFoundation.Peek();
+                heartsFoundation.Image = Image.FromFile(card.CardImg);
+            }
+            if (!InitializeGame.DiamondsFoundation.IsEmpty())
+            {
+                Card card = InitializeGame.DiamondsFoundation.Peek();
+                diamondsFoundation.Image = Image.FromFile(card.CardImg);
+            }
+            if (!InitializeGame.ClubsFoundation.IsEmpty())
+            {
+                Card card = InitializeGame.ClubsFoundation.Peek();
+                clubsFoundation.Image = Image.FromFile(card.CardImg);
+            }
+            if (!InitializeGame.SpadesFoundation.IsEmpty())
+            {
+                Card card = InitializeGame.SpadesFoundation.Peek();
+                spadesFoundation.Image = Image.FromFile(card.CardImg);
+            }
+        }
+        private void FoundationCard_Click(object sender, EventArgs e)
+        {
+            PictureBox clickedFoundationPictureBox = sender as PictureBox;
+            var clickedFoundationInfo = (Tuple<Stack,string>)clickedFoundationPictureBox.Tag;
+            Stack FoundationPile=clickedFoundationInfo.Item1;
+            string foundationsuit = clickedFoundationInfo.Item2;
+            if(selectedCard!=null)
+            {
+                if(selectedCard.Suit==foundationsuit)
+                {
+                    if(GameAnMovesEvaluation.IsValidFoundationMove(selectedCard,FoundationPile))
+                    {
+                        Card card = sourcePile.Pop();
+                        FoundationPile.Push(card);
+                        UpdatePilesAfterMove();
+                    }
+                }
+            }
+            HighlightCard(selectedCardPictureBox1, false);
+
+
         }
 
         private void Card_Click(object sender, EventArgs e)
@@ -191,7 +293,7 @@ namespace Solitair_Game
                 selectedCardPictureBox2= clickedCardPictureBox;
                 if (IsValidMove(selectedCard, clickedCard, sourcePile, clickedPile))
                 {
-                    Node topcardnode = sourcePile.head;
+                    Node topcardnode = sourcePile.Top;
                     List<Card>CardstoShift=new List<Card>();
                     while (topcardnode.CurrentCard!=selectedCard)
                     {
@@ -241,6 +343,12 @@ namespace Solitair_Game
             DisplayStockPile();
             DisplayWastePile();
             DisplayTableaus();
+            DisplayFoundations();
+            UpdateFoundationDisplay();
+            if(GameAnMovesEvaluation.IsWin())
+            {
+                this.Close();
+            }
         }
 
         private void HighlightCard(PictureBox cardPictureBox, bool highlight)

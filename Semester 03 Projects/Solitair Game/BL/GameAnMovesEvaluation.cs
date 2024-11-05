@@ -21,5 +21,28 @@ namespace Solitair_Game
             }
             return false;
         }
+        public static bool IsValidFoundationMove(Card sourcecard, Stack Foundation)
+        {
+            if (Foundation.IsEmpty())
+            {
+                if(RankValue[sourcecard.Rank]==1)
+                return true;
+                else
+                return false;
+            }
+            if (sourcecard.Color == Foundation.Peek().Color && RankValue[sourcecard.Rank] == RankValue[Foundation.Peek().Rank] + 1)
+            {
+                return true;
+            }
+            return false;
+        }
+        public static bool IsWin()
+        {
+            if(InitializeGame.HeartsFoundation.GetTotalNumberOfCards()==13&&RankValue[InitializeGame.HeartsFoundation.Peek().Rank]==13&& InitializeGame.DiamondsFoundation.GetTotalNumberOfCards() == 13&&RankValue[InitializeGame.DiamondsFoundation.Peek().Rank] == 13&& InitializeGame.SpadesFoundation.GetTotalNumberOfCards() == 13&&RankValue[InitializeGame.SpadesFoundation.Peek().Rank] == 13&& InitializeGame.ClubsFoundation.GetTotalNumberOfCards() == 13&&RankValue[InitializeGame.ClubsFoundation.Peek().Rank] == 13)
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }

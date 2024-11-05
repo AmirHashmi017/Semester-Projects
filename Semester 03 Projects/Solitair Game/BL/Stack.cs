@@ -15,17 +15,17 @@ namespace Solitair_Game
 
     public class Stack
     {
-        public Node head;
+        public Node Top;
         public Stack()
         {
-            head = null;
+            Top = null;
         }
         public void Push(Card newcard)
         {
             Node newNode = new Node();
             newNode.CurrentCard = newcard;
-            newNode.Next = head;
-            head = newNode;
+            newNode.Next = Top;
+            Top = newNode;
 
         }
         public Card Pop()
@@ -34,9 +34,9 @@ namespace Solitair_Game
             {
                 return null;
             }
-            Node next = head.Next;
-            Card CardToDelete = head.CurrentCard;
-            head = next;
+            Node next = Top.Next;
+            Card CardToDelete = Top.CurrentCard;
+            Top = next;
             return CardToDelete;
         }
         public Card Peek()
@@ -45,11 +45,11 @@ namespace Solitair_Game
             {
                 return null;
             }
-            return head.CurrentCard;
+            return Top.CurrentCard;
         }
         public bool IsEmpty()
         {
-            if(head == null)
+            if(Top == null)
             {
                 return true;
             }
@@ -58,7 +58,7 @@ namespace Solitair_Game
         public int GetTotalNumberOfCards()
         {
             int count = 0;
-            Node current = head;
+            Node current = Top;
             while (current != null)
             {
                 count++;
