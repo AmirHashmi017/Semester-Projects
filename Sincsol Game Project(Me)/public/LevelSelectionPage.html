@@ -15,7 +15,7 @@
         <div class="woodenblockcontainer">
             <div class="style-container animate__animated animate__bounceInDown animate__slow">
             <img class="woodenblockimage" src="Assets/Selection Board.png"/>
-        
+            <img id="gotoleaderboard" src="Assets/Gotoleaderboard.png"/>
             <button id="btn1" class="button" onclick="storeAndSelectLevel(1)"><img id="button1" src="Assets/LightSelectionButton.png"><span class="buttontext">Elementary</span></button>
             <button id="btn2" class="button" onclick="storeAndSelectLevel(2)"><img id="button2" src="Assets/LightSelectionButton.png"><span class="buttontext">Secondary</span></button>
             <button id="btn3" class="button" onclick="storeAndSelectLevel(3)"><img id="button3" src="Assets/LightSelectionButton.png"><span class="buttontext">Higher Secondary</span></button>
@@ -62,7 +62,10 @@
                 window.location.href = targetUrl;
             } 
         }
-
+        gotoleaderboard.addEventListener('click',()=>
+    {
+        window.location.href = "LeaderBoard.html";
+    });
         fetch('footer.html')
             .then(response => response.text())
             .then(data => {

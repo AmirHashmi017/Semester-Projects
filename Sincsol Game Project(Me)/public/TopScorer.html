@@ -29,6 +29,9 @@
     <div id="footer-placeholder"></div>
     <script src="TopScorer.js"></script>
     <script>
+        window.addEventListener("keydown", () => {
+    puzzleguess.focus();
+});
     fetch('Footer.html')
             .then(response => response.text())
             .then(data => {

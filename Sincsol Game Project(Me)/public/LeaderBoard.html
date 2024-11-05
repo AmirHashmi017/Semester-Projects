@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leader Board</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="LeaderBoard.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+        
+    .remarks {
+    position: absolute;
+    top: 11%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFA800;
+    font-size: 28px;
+    -webkit-text-stroke: 0.7px #236D43;
+    font-family: 'Hanalei Fill', cursive; 
+    text-align: center;
+    line-height: 30.5px; 
+}
+
+    </style>
+
+</head>
+<body>
+    <div class="HomePage">
+        <img class="MainImage" src="Assets/Question Background.png" alt="Background Image"/>
+        <div class="woodenblockcontainer">
+            <div class="style-container animate__animated animate__bounceInDown animate__slow">
+            <img class="woodenblockimage" src="Assets/LeaderBoardFrame.png"/>
+            <img id="close" onclick="resume()" src="Assets/Cross.png"/>
+            <div class="rank"></div>
+            <img class="trophylogo" src="Assets/resultperson.png"/>
+            <img class="firstposition" src="Assets/1st position.png"/>
+            <div class="scorecontainer1">
+                <img class="scorecontainer1" src="Assets/Position Displayer.png"/>
+                <div id="player1" class="score1">PLAYER 1</div>
+                <div id="score1" class="score12">Score: 98%</div>
+            </div>
+            
+            <div class="remarks">LeaderBoard</div>
+            
+            <img class="personlogo" src="Assets/resultperson.png"/>
+            <img class="secondposition" src="Assets/2nd position.png"/>
+            <div class="scorecontainer">
+                
+            <img class="scorecontainer" src="Assets/Position Displayer.png"/>
+            
+            <div id="player2" class="score">PLAYER 2</div>
+            <div id="score2" class="score2">Score: 88%</div>
+        </div>
+        <img class="personlogo2" src="Assets/resultperson.png"/>
+        <img class="thirdposition" src="Assets/3rd position.png"/>
+            <div class="scorecontainer2">
+                
+            <img class="scorecontainer" src="Assets/Position Displayer.png"/>
+            <div  id="player3" class="score">PLAYER 3</div>
+            <div id="score3" class="score2">Score: 78%</div>
+        </div>
+            
+        </div>
+        </div>
+        
+    </div>
+    <div id="footer-placeholder"></div>
+<script src="LeaderBoard.js"></script>
+    <script>
+        function resume() {
+            
+        
+            const targetUrl = `LevelSelectionPage.html`;
+
+            window.location.href = targetUrl;
+        }
+
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+    </script>
+</body>
+</html>
