@@ -20,6 +20,9 @@ namespace Solitair_Game
         {
             Top = null;
         }
+
+
+
         public void Push(Card newcard)
         {
             Node newNode = new Node();
@@ -66,6 +69,35 @@ namespace Solitair_Game
             }
             return count;
         }
+
+        public Stack DeepCopy()
+        {
+            Stack copy = new Stack();
+            if (Top == null) 
+             return copy;
+
+            Node current = Top;
+            Stack tempStack = new Stack();
+
+            while (current != null)
+            {
+                if (current.CurrentCard == null)
+                    break;
+                Card copycard = new Card(current.CurrentCard);
+                tempStack.Push(copycard);
+                current = current.Next;
+            }
+
+            current = tempStack.Top;
+            while (current != null)
+            {
+                copy.Push(current.CurrentCard);
+                current = current.Next;
+            }
+
+            return copy;
+        }
+
     }
 
 }

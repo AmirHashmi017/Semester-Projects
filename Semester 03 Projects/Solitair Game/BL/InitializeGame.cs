@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Solitair_Game
 {
-    internal class InitializeGame
+    public class InitializeGame
     {
         public static List<Card> Deck = new List<Card>();
         public static Queue StockPile = new Queue();
@@ -15,15 +15,32 @@ namespace Solitair_Game
         public static Stack DiamondsFoundation;
         public static Stack ClubsFoundation;
         public static Stack SpadesFoundation;
+
         public static void InitializeGameFunction()
         {
             HeartsFoundation=new Stack();
             ClubsFoundation=new Stack();
             DiamondsFoundation=new Stack();
             SpadesFoundation=new Stack();
-            CreateDeck();
-            ShuffleDeck();
+            CreateDeckForEasyWin();
+            //CreateDeck();
+            //ShuffleDeck();
             CreateTableausAndStockpile();
+        }
+        public static void CreateDeckForEasyWin()
+        {
+            Deck.Clear();
+            List<string> Suits = new List<string> { "hearts", "diamonds", "clubs", "spades" };
+            List<string> Ranks = new List<string> { "king", "queen", "jack", "10", "9", "8", "7", "6", "5", "4", "3", "2", "ace" };
+
+            foreach (string Suit in Suits)
+            {
+                foreach (string Rank in Ranks)
+                {
+                    Card card = new Card(Suit, Rank);
+                    Deck.Add(card);
+                }
+            }
         }
         public static void CreateDeck()
         {

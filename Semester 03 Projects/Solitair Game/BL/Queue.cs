@@ -15,6 +15,28 @@ namespace Solitair_Game
             Front = null;
             Rear= null;
         }
+        public Queue DeepCopy()
+        {
+            Queue copy = new Queue();
+            if (Front == null) {
+                return copy;
+            }
+            Queue tempQueue = new Queue();
+            Node current = Front;
+            while(current!=null)
+            {
+                Card copycard = new Card(current.CurrentCard);
+                tempQueue.Enqueue(copycard);
+                current = current.Next;
+            }
+            current = tempQueue.Front;
+            while(current!=null)
+            {
+                copy.Enqueue(current.CurrentCard);
+                current = current.Next;
+            }
+            return copy;
+        }
         public void Enqueue(Card newcard)
         {
             Node newNode = new Node();

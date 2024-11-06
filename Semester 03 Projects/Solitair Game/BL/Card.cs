@@ -14,6 +14,16 @@ namespace Solitair_Game
         public string BackImg;
         public bool IsFaceUp;
         public string Color;
+
+        public Card(Card card)
+        {
+            this.Suit = card.Suit;
+            this.Rank = card.Rank;
+            this.CardImg = card.CardImg;
+            this.BackImg = card.BackImg;
+            this.IsFaceUp = card.IsFaceUp;
+            this.Color = card.Color;
+        }
         public Card(string Suit, string Rank)
         {
             this.Suit = Suit;
