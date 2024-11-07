@@ -15,6 +15,9 @@ namespace Solitair_Game
 {
     public partial class Form1 : Form
     {
+        private Timer gameTimer;
+        private int TotalMoves = 0;
+        private int ElapsedSeconds = 0;
         public UndoStack GameStateStack = new UndoStack();
         public PictureBox stockPilePictureBox;
         public PictureBox wastePilePictureBox;
@@ -32,28 +35,35 @@ namespace Solitair_Game
         {
             InitializeComponent();
             this.DoubleBuffered = true;
-        }
+            gameTimer = new Timer();
+            gameTimer.Interval = 1000;
+            gameTimer.Tick += gameTimer_Tick;
+            gameTimer.Start();
 
+            Time.Text = "Time: 00:00";
+            Undo.Text = "Undo";
+            Moves.Text = "Total Moves: 0";
+        }
+        private void gameTimer_Tick(object sender, EventArgs e)
+        {
+            ElapsedSeconds++;
+            TimeSpan time = TimeSpan.FromSeconds(ElapsedSeconds);
+            Time.Text = $"Time: {time:mm\\:ss}";
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.BackColor = Color.Green;
+            this.BackColor = Color.FromArgb(35, 155, 86);
+
             this.WindowState = FormWindowState.Maximized;
             InitializeGame.InitializeGameFunction();
             DisplayStockPile();
             DisplayTableaus();
             DisplayFoundations();
-            MakeUndo();
             AddHoverEvent();
-        }
-        private void MakeUndo()
-        {
-            PictureBox undo = new PictureBox();
-            undo.Location = new Point(200, 180);
-            undo.Size = new Size(CardSpecifications.CardWidth, CardSpecifications.CardHeight);
-            undo.SizeMode = PictureBoxSizeMode.StretchImage;
-            undo.Image = Image.FromFile("D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\Assests\\CardsImages\\curve-arrow.png");
-            undo.Click += new EventHandler(undoClick);
-            this.Controls.Add(undo);
+            UndoPicture.Cursor = Cursors.Hand;
+            UndoPicture.Image = Image.FromFile("D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\Assests\\CardsImages\\undo.png");
+            UndoPicture.SizeMode = PictureBoxSizeMode.StretchImage;
+            UndoPicture.Click += new EventHandler(undoClick);
         }
         private void DisplayStockPile()
         {
@@ -400,6 +410,8 @@ namespace Solitair_Game
 
         private void UpdatePilesAfterMove()
         {
+            TotalMoves++;
+            Moves.Text = $"Total Moves: {TotalMoves}";
             this.Controls.Clear();
 
 
@@ -408,8 +420,8 @@ namespace Solitair_Game
             DisplayTableaus();
             DisplayFoundations();
             UpdateFoundationDisplay();
-            MakeUndo();
             AddHoverEvent();
+            this.Controls.Add(this.DisplayList);
             if (GameAnMovesEvaluation.IsWin())
             {
                 this.Close();
@@ -468,5 +480,29 @@ namespace Solitair_Game
             }
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Time_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_MouseHover(object sender, EventArgs e)
+        {
+
+        }
     }
 }
