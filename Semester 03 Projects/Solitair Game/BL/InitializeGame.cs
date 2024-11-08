@@ -15,6 +15,7 @@ namespace Solitair_Game
         public static Stack DiamondsFoundation;
         public static Stack ClubsFoundation;
         public static Stack SpadesFoundation;
+        public static HashMap hashset;
 
         public static void InitializeGameFunction()
         {
@@ -22,10 +23,30 @@ namespace Solitair_Game
             ClubsFoundation=new Stack();
             DiamondsFoundation=new Stack();
             SpadesFoundation=new Stack();
-            CreateDeckForEasyWin();
-            //CreateDeck();
-            //ShuffleDeck();
+            if (Start.Difficulty == "Easy")
+            {
+                CreateDeckForEasyWin();
+            }
+            else
+            {
+                CreateDeck();
+                ShuffleDeck();
+            }
             CreateTableausAndStockpile();
+            hashset = new HashMap(13);
+            hashset.Hash("ace", 1);
+            hashset.Hash("2", 2);
+            hashset.Hash("3", 3);
+            hashset.Hash("4", 4);
+            hashset.Hash("5", 5);
+            hashset.Hash("6", 6);
+            hashset.Hash("7", 7);
+            hashset.Hash("8", 8);
+            hashset.Hash("9", 9);
+            hashset.Hash("10", 10);
+            hashset.Hash("jack", 11);
+            hashset.Hash("queen", 12);
+            hashset.Hash("king", 13);
         }
         public static void CreateDeckForEasyWin()
         {

@@ -16,9 +16,10 @@ namespace Solitair_Game
     public partial class Form1 : Form
     {
         private Timer gameTimer;
-        private int TotalMoves = 0;
-        private int ElapsedSeconds = 0;
+        public static int TotalMoves = 0;
+        public static int ElapsedSeconds = 0;
         public UndoStack GameStateStack = new UndoStack();
+        public UndoStack redoStack = new UndoStack();
         public PictureBox stockPilePictureBox;
         public PictureBox wastePilePictureBox;
         public Stack wastePile = new Stack();
@@ -33,7 +34,7 @@ namespace Solitair_Game
 
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent();    
             this.DoubleBuffered = true;
             gameTimer = new Timer();
             gameTimer.Interval = 1000;
@@ -64,6 +65,10 @@ namespace Solitair_Game
             UndoPicture.Image = Image.FromFile("D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\Assests\\CardsImages\\undo.png");
             UndoPicture.SizeMode = PictureBoxSizeMode.StretchImage;
             UndoPicture.Click += new EventHandler(undoClick);
+            redopicture.Cursor = Cursors.Hand;
+            redopicture.Image = Image.FromFile("D:\\Semester 03\\DSA Lab\\csc200m24pid11\\Solitair Game\\Assests\\CardsImages\\redo.png");
+            redopicture.SizeMode = PictureBoxSizeMode.StretchImage;
+            redopicture.Click += new EventHandler(redoClick);
         }
         private void DisplayStockPile()
         {
@@ -83,14 +88,20 @@ namespace Solitair_Game
             GameState gameState = new GameState(InitializeGame.Tableaus, InitializeGame.StockPile, wastePile, InitializeGame.HeartsFoundation, InitializeGame.DiamondsFoundation, InitializeGame.ClubsFoundation, InitializeGame.SpadesFoundation);
             GameStateStack.Push(gameState);
         }
-        private void undoClick(object sender, EventArgs e)
+        private void StoreRedoGameState()
         {
-            if (!GameStateStack.IsEmpty())
+            GameState gameState = new GameState(InitializeGame.Tableaus, InitializeGame.StockPile, wastePile, InitializeGame.HeartsFoundation, InitializeGame.DiamondsFoundation, InitializeGame.ClubsFoundation, InitializeGame.SpadesFoundation);
+            redoStack.Push(gameState);
+        }
+        private void redoClick(object sender, EventArgs e)
+        {
+            if (!redoStack.IsEmpty())
             {
-                GameState prevGameState = GameStateStack.Pop();
-
+                GameState prevGameState = redoStack.Pop();
+                
                 if (prevGameState != null)
                 {
+                    StoreGameState();
                     InitializeGame.Tableaus = prevGameState.Tableaus.Select(t => t.DeepCopy()).ToList();
                     InitializeGame.StockPile = prevGameState.StockPile.DeepCopy();
                     InitializeGame.HeartsFoundation = prevGameState.HeartsFoundation.DeepCopy();
@@ -98,7 +109,34 @@ namespace Solitair_Game
                     InitializeGame.SpadesFoundation = prevGameState.SpadesFoundation.DeepCopy();
                     InitializeGame.ClubsFoundation = prevGameState.ClubsFoundation.DeepCopy();
                     wastePile = prevGameState.WastePile.DeepCopy();
-
+                    TotalMoves++;
+                    Moves.Text = $"Total Moves: {TotalMoves}";
+                    UpdatePilesAfterMove();
+                }
+            }
+            else
+            {
+                MessageBox.Show("No moves to redo!");
+            }
+        }
+        private void undoClick(object sender, EventArgs e)
+        {
+            if (!GameStateStack.IsEmpty())
+            {
+                GameState prevGameState = GameStateStack.Pop();
+                
+                if (prevGameState != null)
+                {
+                    StoreRedoGameState();
+                    InitializeGame.Tableaus = prevGameState.Tableaus.Select(t => t.DeepCopy()).ToList();
+                    InitializeGame.StockPile = prevGameState.StockPile.DeepCopy();
+                    InitializeGame.HeartsFoundation = prevGameState.HeartsFoundation.DeepCopy();
+                    InitializeGame.DiamondsFoundation = prevGameState.DiamondsFoundation.DeepCopy();
+                    InitializeGame.SpadesFoundation = prevGameState.SpadesFoundation.DeepCopy();
+                    InitializeGame.ClubsFoundation = prevGameState.ClubsFoundation.DeepCopy();
+                    wastePile = prevGameState.WastePile.DeepCopy();
+                    TotalMoves--;
+                    Moves.Text = $"Total Moves: {TotalMoves}";
                     UpdatePilesAfterMove();
                 }
             }
@@ -115,7 +153,8 @@ namespace Solitair_Game
                 Card drawnCard = InitializeGame.StockPile.Dequeue();
                 drawnCard.IsFaceUp = true;
                 wastePile.Push(drawnCard);
-
+                TotalMoves++;
+                Moves.Text = $"Total Moves: {TotalMoves}";
                 UpdateStockPileDisplay();
                 DisplayWastePile();
             }
@@ -327,6 +366,8 @@ namespace Solitair_Game
                         StoreGameState();
                         Card card = sourcePile.Pop();
                         FoundationPile.Push(card);
+                        TotalMoves++;
+                        Moves.Text = $"Total Moves: {TotalMoves}";
                         UpdatePilesAfterMove();
                     }
                 }
@@ -377,9 +418,10 @@ namespace Solitair_Game
                         {
                             clickedPile.Push(CardstoShift[i]);
                         }
+                        TotalMoves++;
+                        Moves.Text = $"Total Moves: {TotalMoves}";
 
-
-                        UpdatePilesAfterMove();
+                    UpdatePilesAfterMove();
                         HighlightCard(selectedCardPictureBox1, false);
                     }
                 else
@@ -410,8 +452,7 @@ namespace Solitair_Game
 
         private void UpdatePilesAfterMove()
         {
-            TotalMoves++;
-            Moves.Text = $"Total Moves: {TotalMoves}";
+            
             this.Controls.Clear();
 
 
@@ -424,7 +465,10 @@ namespace Solitair_Game
             this.Controls.Add(this.DisplayList);
             if (GameAnMovesEvaluation.IsWin())
             {
+                WinPage winpage=new WinPage();
+                this.Hide();
                 this.Close();
+                winpage.Show();
             }
         }
 
@@ -501,6 +545,11 @@ namespace Solitair_Game
         }
 
         private void Form1_MouseHover(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
