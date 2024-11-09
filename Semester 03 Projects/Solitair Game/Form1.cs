@@ -45,6 +45,7 @@ namespace Solitair_Game
             Undo.Text = "Undo";
             Moves.Text = "Total Moves: 0";
         }
+        //Function for updating timer.
         private void gameTimer_Tick(object sender, EventArgs e)
         {
             ElapsedSeconds++;
@@ -70,6 +71,8 @@ namespace Solitair_Game
             redopicture.SizeMode = PictureBoxSizeMode.StretchImage;
             redopicture.Click += new EventHandler(redoClick);
         }
+
+        //Function for displaying stock pile on UI.
         private void DisplayStockPile()
         {
             stockPilePictureBox = new PictureBox();
@@ -82,17 +85,22 @@ namespace Solitair_Game
             stockPilePictureBox.Click += new EventHandler(StockPileClick);
         }
 
+        //Function for storing current game state for undo.
         private void StoreGameState()
         {
 
             GameState gameState = new GameState(InitializeGame.Tableaus, InitializeGame.StockPile, wastePile, InitializeGame.HeartsFoundation, InitializeGame.DiamondsFoundation, InitializeGame.ClubsFoundation, InitializeGame.SpadesFoundation);
             GameStateStack.Push(gameState);
         }
+
+        //Function for storing current game state for redo.
         private void StoreRedoGameState()
         {
             GameState gameState = new GameState(InitializeGame.Tableaus, InitializeGame.StockPile, wastePile, InitializeGame.HeartsFoundation, InitializeGame.DiamondsFoundation, InitializeGame.ClubsFoundation, InitializeGame.SpadesFoundation);
             redoStack.Push(gameState);
         }
+
+        //Function for managing redo click functionality.
         private void redoClick(object sender, EventArgs e)
         {
             if (!redoStack.IsEmpty())
@@ -119,6 +127,8 @@ namespace Solitair_Game
                 MessageBox.Show("No moves to redo!");
             }
         }
+
+        //Function for managing undo click functionality.
         private void undoClick(object sender, EventArgs e)
         {
             if (!GameStateStack.IsEmpty())
@@ -145,6 +155,8 @@ namespace Solitair_Game
                 MessageBox.Show("No moves to undo!");
             }
         }
+
+        //Function for managing stock pile click functionality.
         private void StockPileClick(object sender, EventArgs e)
         {
             if (InitializeGame.StockPile.GetTotalNumberOfCards() > 0)
@@ -164,6 +176,7 @@ namespace Solitair_Game
             }
         }
 
+        //Function for redealt of cards when stock pile becomes empty.
         private void RetailCards()
         {
             
@@ -178,6 +191,7 @@ namespace Solitair_Game
             UpdateStockPileDisplay();
         }
 
+        //Function for displaying stock pile after click.
         private void UpdateStockPileDisplay()
         {
             if (InitializeGame.StockPile.GetTotalNumberOfCards() > 0)
@@ -192,6 +206,7 @@ namespace Solitair_Game
             }
         }
 
+        //Function for displaying waste pile.
         private void DisplayWastePile()
         {
             this.Controls.Add(wastePilePictureBox);
@@ -217,6 +232,7 @@ namespace Solitair_Game
             }
         }
 
+        //Function for displaying 7 tableaus on UI.
         private void DisplayTableaus()
         {
             int startX = 350;
@@ -284,6 +300,8 @@ namespace Solitair_Game
                 }
             }
         }
+
+        //Function for displaying 4 Foundations on UI.
         private void DisplayFoundations()
         {
             heartsFoundation= new PictureBox();
@@ -328,6 +346,8 @@ namespace Solitair_Game
 
            
         }
+
+        //Function for displaying Foundation piles after click.
         private void UpdateFoundationDisplay()
         {
             if(!InitializeGame.HeartsFoundation.IsEmpty())
@@ -351,6 +371,8 @@ namespace Solitair_Game
                 spadesFoundation.Image = Image.FromFile(card.CardImg);
             }
         }
+
+        //Click event for handelling foundation click.
         private void FoundationCard_Click(object sender, EventArgs e)
         {
             PictureBox clickedFoundationPictureBox = sender as PictureBox;
@@ -377,6 +399,7 @@ namespace Solitair_Game
 
         }
 
+        //Click event for handelling card click.
         private void Card_Click(object sender, EventArgs e)
         {
             PictureBox clickedCardPictureBox = sender as PictureBox;
@@ -437,6 +460,7 @@ namespace Solitair_Game
             }
         }
 
+        //Function for checking that is move valid or not.
         private bool IsValidMove(Card sourceCard, Card destinationCard,Stack sourcepile,Stack destinationpile)
         {
             if (destinationpile == wastePile||sourcepile==null)
@@ -450,6 +474,7 @@ namespace Solitair_Game
             return false; 
         }
 
+        //Function for updating game UI after each card move.
         private void UpdatePilesAfterMove()
         {
             
@@ -467,21 +492,28 @@ namespace Solitair_Game
             {
                 WinPage winpage=new WinPage();
                 this.Hide();
-                this.Close();
                 winpage.Show();
             }
         }
 
+        //Highlighting each card on click to distinct it from other cards.
         private void HighlightCard(PictureBox cardPictureBox, bool highlight)
         {
             if (highlight)
             {
-                ControlPaint.DrawBorder(cardPictureBox.CreateGraphics(),
-                                        cardPictureBox.ClientRectangle,
-                                        Color.Yellow, 3, ButtonBorderStyle.Solid,
-                                        Color.Yellow, 3, ButtonBorderStyle.Solid,
-                                        Color.Yellow, 3, ButtonBorderStyle.Solid,
-                                        Color.Yellow, 3, ButtonBorderStyle.Solid);
+                try
+                {
+                    ControlPaint.DrawBorder(cardPictureBox.CreateGraphics(),
+                                            cardPictureBox.ClientRectangle,
+                                            Color.Yellow, 3, ButtonBorderStyle.Solid,
+                                            Color.Yellow, 3, ButtonBorderStyle.Solid,
+                                            Color.Yellow, 3, ButtonBorderStyle.Solid,
+                                            Color.Yellow, 3, ButtonBorderStyle.Solid);
+                }
+                catch
+                {
+
+                }
             }
             else
             {
@@ -493,7 +525,7 @@ namespace Solitair_Game
             }
         }
         
-
+        //Function for adding hover animation on card.
         private void AddHoverEvent()
         {
             foreach (Control control in this.Controls)

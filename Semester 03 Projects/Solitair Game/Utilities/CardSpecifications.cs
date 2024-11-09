@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Solitair_Game
 {
+    //Utility class for cards specifications.
     internal class CardSpecifications
     {
         public static int CardWidth = 90;

@@ -17,12 +17,15 @@ namespace Solitair_Game
         public static Stack SpadesFoundation;
         public static HashMap hashset;
 
+        //Function for initializing game.
         public static void InitializeGameFunction()
         {
             HeartsFoundation=new Stack();
             ClubsFoundation=new Stack();
             DiamondsFoundation=new Stack();
             SpadesFoundation=new Stack();
+
+            //Checking difficulty level and shuffling cards according to it.
             if (Start.Difficulty == "Easy")
             {
                 CreateDeckForEasyWin();
@@ -48,6 +51,8 @@ namespace Solitair_Game
             hashset.Hash("queen", 12);
             hashset.Hash("king", 13);
         }
+
+        //Function for creating deck for easy level.
         public static void CreateDeckForEasyWin()
         {
             Deck.Clear();
@@ -63,6 +68,8 @@ namespace Solitair_Game
                 }
             }
         }
+
+        //Function for creating deck.
         public static void CreateDeck()
         {
             List<string> Suits = new List<string> { "hearts", "diamonds", "clubs", "spades" };
@@ -76,6 +83,8 @@ namespace Solitair_Game
                 }
             }
         }
+
+        //Function for shuffling cards of deck.
         public static void ShuffleDeck()
         {
             Random rand = new Random();
@@ -87,6 +96,8 @@ namespace Solitair_Game
                 Deck[RandIndex] = swap;
             }
         }
+
+        //Function for creating tableaus and stockpile from deck.
         public static void CreateTableausAndStockpile()
         {
             for(int i=0;i<7;i++)

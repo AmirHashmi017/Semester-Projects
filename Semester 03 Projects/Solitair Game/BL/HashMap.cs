@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Solitair_Game
 {
+    //HashMap class for implementing Hashing with Open Addressing scheme Double Hashing.
     public class HashMap
     {
         public  (string key,int value)?[] buckets;
@@ -15,6 +16,8 @@ namespace Solitair_Game
             buckets = new (string, int)?[size];
             this.tablesize = size;
         }
+
+        //Function for hashing values to Hashtable.
         public void Hash(string key,int value)
         {
             int index=(CalculateAscii(key))%tablesize;
@@ -27,10 +30,14 @@ namespace Solitair_Game
                 DoubleHashing(index, key, value);
             }
         }
+
+        //Function for getting index of hashtable for double hashing.
         public int GetDoubleHash(string key)
         {
             return 7-((CalculateAscii(key))%7);
         }
+
+        //Function for Double Hashing in case of collision.
         public void DoubleHashing(int index,string key,int value)
         {
             for(int i=1;i<=tablesize;i++)
@@ -43,6 +50,8 @@ namespace Solitair_Game
                 }
             }
         }
+
+        //Function for getting value based on key.
         public int GetValue(string key)
         {
             int index=CalculateAscii(key)%tablesize;
@@ -55,6 +64,8 @@ namespace Solitair_Game
                 return GetValueByDoubleHashing(index, key);
             }
         }
+
+        //Function for getting value based on key in case of collision.
         public int GetValueByDoubleHashing(int index, string key)
         {
             for (int i = 1; i <= tablesize; i++)
@@ -67,6 +78,8 @@ namespace Solitair_Game
             }
             return -1;
         }
+
+        //Function for calculating ASCII code of key.
         public int CalculateAscii(string key)
         {
             int asciicode = 0;

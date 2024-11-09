@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace Solitair_Game
 {
-    
+    //Node Class Containing a Card and it's next node object.
     public class Node
     {
         public Card CurrentCard;
         public Node Next;
     }
 
+    //Stack Class implementing stack using Linked List.
     public class Stack
     {
         public Node Top;
@@ -22,7 +23,7 @@ namespace Solitair_Game
         }
 
 
-
+        //Function for adding card into stack.
         public void Push(Card newcard)
         {
             Node newNode = new Node();
@@ -31,6 +32,7 @@ namespace Solitair_Game
             Top = newNode;
 
         }
+        //Function for removing card from stack.
         public Card Pop()
         {
             if (IsEmpty())
@@ -42,6 +44,7 @@ namespace Solitair_Game
             Top = next;
             return CardToDelete;
         }
+        //Function for returning top of stack.
         public Card Peek()
         {
             if (IsEmpty())
@@ -50,6 +53,7 @@ namespace Solitair_Game
             }
             return Top.CurrentCard;
         }
+        //Function for checking stack is empty or not.
         public bool IsEmpty()
         {
             if(Top == null)
@@ -58,6 +62,7 @@ namespace Solitair_Game
             }
             return false;
         }
+        //Function for counting number of cards in stack.
         public int GetTotalNumberOfCards()
         {
             int count = 0;
@@ -69,7 +74,7 @@ namespace Solitair_Game
             }
             return count;
         }
-
+        //Function for making Deep Copy of Stack.
         public Stack DeepCopy()
         {
             Stack copy = new Stack();

@@ -6,11 +6,15 @@ using System.Threading.Tasks;
 
 namespace Solitair_Game
 {
+
+    //Node Class Containing a GameState and it's next UndoStackNode object.
     public class UndoStackNode
     {
         public GameState CurrentGameState;
         public UndoStackNode Next;
     }
+
+    //Stack Class implementing stack using Linked List.
     public class UndoStack
     {
             public UndoStackNode Top;

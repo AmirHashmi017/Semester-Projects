@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Solitair_Game
 {
+    //GameState class for storing current state of game for undo/redo.
     public class GameState
     {
         public List<Stack> Tableaus;

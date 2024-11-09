@@ -39,7 +39,7 @@ namespace Solitair_Game
         {
 
         }
-
+        //Function for easy click means starting easy level.
         private void Easy_Click(object sender, EventArgs e)
         {
             Difficulty = "Easy";
@@ -48,7 +48,7 @@ namespace Solitair_Game
             gameForm.Show();
 
         }
-
+        //Function for hard click means starting hard level.
         private void Hard_Click(object sender, EventArgs e)
         {
             Difficulty = "Hard";

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Solitair_Game
 {
+    //Queue Class implementing queue using Linked List.
     public class Queue
     {
         public Node Front;
@@ -15,6 +16,8 @@ namespace Solitair_Game
             Front = null;
             Rear= null;
         }
+
+        //Function for making Deep Copy of Queue.
         public Queue DeepCopy()
         {
             Queue copy = new Queue();
@@ -37,6 +40,8 @@ namespace Solitair_Game
             }
             return copy;
         }
+
+        //Function for adding card into queue.
         public void Enqueue(Card newcard)
         {
             Node newNode = new Node();
@@ -53,6 +58,8 @@ namespace Solitair_Game
                 Rear = newNode;
             }
         }
+
+        //Function for removing card from queue.
         public Card Dequeue()
         {
             if (IsEmpty())
@@ -68,6 +75,8 @@ namespace Solitair_Game
             }
             return CardToDelete;
         }
+
+        //Function for returning front of queue.
         public Card Peek()
         {
             if (IsEmpty())
@@ -76,6 +85,8 @@ namespace Solitair_Game
             }
             return Front.CurrentCard;
         }
+
+        //Function for checking queue is empty or not.
         public bool IsEmpty()
         {
             if (Front == null)
@@ -84,6 +95,8 @@ namespace Solitair_Game
             }
             return false;
         }
+
+        //Function for counting number of cards in queue.
         public int GetTotalNumberOfCards()
         {
             int count = 0;
