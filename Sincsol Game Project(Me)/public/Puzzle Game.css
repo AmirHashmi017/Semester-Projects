@@ -35,11 +35,11 @@ body {
 
 .puzzle-grid {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5,0.5fr);
     grid-template-rows: repeat(5, 0.2fr);
     
     gap:11px;
-    width: 60%;
+    width: 55%;
     position:relative;
     left: 23%;
     top:-70%;
@@ -69,7 +69,7 @@ body {
 }
 .label-image {
     position: absolute;
-    top: 94%;
+    top: 98%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 70%;

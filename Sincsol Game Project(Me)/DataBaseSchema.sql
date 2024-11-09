@@ -36,7 +36,7 @@ CREATE TABLE Puzzle (
 INSERT INTO Puzzle (AnimalName, puzzle_image)
 VALUES (
     'Cat',
-    pg_read_binary_file('D:/Github Repos/Sincsol-Game-Project/Assets/CatImage.png')
+    pg_read_binary_file('D:\Github Repos\Sincsol-Game-Project\public\Animal Images\Cat.png')
 );
 
 CREATE TABLE Toppers (
