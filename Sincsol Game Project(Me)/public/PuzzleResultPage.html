@@ -51,7 +51,7 @@
     <script>
         const urlParams = new URLSearchParams(window.location.search);
         
-       const score = (((25 - urlParams.get('score')) / 25) * 100).toFixed(0);
+        const score = (((25 - urlParams.get('score')) / 25) * 100).toFixed(0);
         const rank=urlParams.get('ranking');
         document.querySelector(".score").innerText = `Score: ${score}%`;
         if(rank!=0)
