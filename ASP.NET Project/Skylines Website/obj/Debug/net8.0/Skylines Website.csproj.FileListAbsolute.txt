@@ -142,3 +142,15 @@ C:\Users\T L S\Documents\GitHub\Semester-Projects\ASP.NET Project\Skylines Websi
 C:\Users\T L S\Documents\GitHub\Semester-Projects\ASP.NET Project\Skylines Website\obj\Debug\net8.0\Skylines Website.pdb
 C:\Users\T L S\Documents\GitHub\Semester-Projects\ASP.NET Project\Skylines Website\obj\Debug\net8.0\Skylines Website.genruntimeconfig.cache
 C:\Users\T L S\Documents\GitHub\Semester-Projects\ASP.NET Project\Skylines Website\obj\Debug\net8.0\ref\Skylines Website.dll
+D:\Github Repos\Semester-Projects\ASP.NET Project\Skylines Website\obj\Debug\net8.0\Skylines Website.csproj.AssemblyReference.cache
+D:\Github Repos\Semester-Projects\ASP.NET Project\Skylines Website\obj\Debug\net8.0\Skylines Website.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Repos\Semester-Projects\ASP.NET Project\Skylines Website\obj\Debug\net8.0\Skylines Website.AssemblyInfoInputs.cache
+D:\Github Repos\Semester-Projects\ASP.NET Project\Skylines Website\obj\Debug\net8.0\Skylines Website.AssemblyInfo.cs
+D:\Github Repos\Semester-Projects\ASP.NET Project\Skylines Website\obj\Debug\net8.0\Skylines Website.csproj.CoreCompileInputs.cache
+D:\Github Repos\Semester-Projects\ASP.NET Project\Skylines Website\obj\Debug\net8.0\Skylines Website.MvcApplicationPartsAssemblyInfo.cache
+D:\Github Repos\Semester-Projects\ASP.NET Project\Skylines Website\obj\Debug\net8.0\Skylines Website.RazorAssemblyInfo.cache
+D:\Github Repos\Semester-Projects\ASP.NET Project\Skylines Website\obj\Debug\net8.0\Skylines Website.RazorAssemblyInfo.cs
+D:\Github Repos\Semester-Projects\ASP.NET Project\Skylines Website\obj\Debug\net8.0\Skylines Website.sourcelink.json
+D:\Github Repos\Semester-Projects\ASP.NET Project\Skylines Website\obj\Debug\net8.0\Skylines Website.dll
+D:\Github Repos\Semester-Projects\ASP.NET Project\Skylines Website\obj\Debug\net8.0\refint\Skylines Website.dll
+D:\Github Repos\Semester-Projects\ASP.NET Project\Skylines Website\obj\Debug\net8.0\Skylines Website.pdb
